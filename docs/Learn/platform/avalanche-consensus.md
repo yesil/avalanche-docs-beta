@@ -8,7 +8,7 @@ Consensus is the task of getting a group of computers to come to an agreement on
 
 ## Video
 
-{% embed url="https://www.youtube.com/watch?v=ZUF9sIu-D\_k" caption="" %}
+[Deep Dive on the Avalanche Protocol](https://www.youtube.com/watch?v=ZUF9sIu-D\_k)
 
 ## Intuition
 
