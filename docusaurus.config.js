@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'Ava Labs', // Usually your GitHub org/user name.
-  projectName: 'Developer Docs', // Usually your repo name.
+  organizationName: 'ava-labs', // Usually your GitHub org/user name.
+  projectName: 'avax-docs', // Usually your repo name.
 
   presets: [
     [
