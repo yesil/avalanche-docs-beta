@@ -89,7 +89,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Ava Labs, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ava Labs, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
