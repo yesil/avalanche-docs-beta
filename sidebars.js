@@ -85,6 +85,7 @@ const sidebars = {
           type: 'category',
           label: 'Tutorials',
           items: [
+            'build/tutorials/README',
             {
               type: 'category',
               label: 'Platform',

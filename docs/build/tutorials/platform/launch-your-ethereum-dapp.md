@@ -48,9 +48,7 @@ Instead of proxying network operations through MetaMask, you can use the public 
 
 The C-Chain API endpoint is [https://api.avax.network/ext/bc/C/rpc](https://api.avax.network/ext/bc/C/rpc) for the mainnet and [https://api.avax-test.network/ext/bc/C/rpc](https://api.avax-test.network/ext/bc/C/rpc) for the testnet.
 
-For more information, see documentation:
-
-{% page-ref page="../../tools/public-api.md" %}
+For more information, see [documentation](../../tools/public-api.md).
 
 ### Running Your Own Node
 
@@ -64,9 +62,7 @@ If you need a private test network to test your dapp, [Avash](https://github.com
 
 Avash uses Lua as a scripting language for orchestrating local networks.
 
-For more information, see documentation:
-
-{% page-ref page="../../tools/avash.md" %}
+For more information, see [documentation](../../tools/avash.md).
 
 ## Developing and Deploying Contracts
 
@@ -74,23 +70,18 @@ Being an Ethereum-compatible blockchain, all of the usual Ethereum developer too
 
 ### Remix
 
-There is a tutorial for using Remix to deploy smart contracts on Avalanche. It relies on MetaMask for access to the Avalanche network.
+There is a [tutorial](../smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md) for using Remix to deploy smart contracts on Avalanche. It relies on MetaMask for access to the Avalanche network.
 
-{% page-ref page="../smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md" %}
 
 ### Truffle
 
-You can also use Truffle to test and deploy smart contracts on Avalanche. Find out how in this tutorial:
-
-{% page-ref page="../smart-contracts/using-truffle-with-the-avalanche-c-chain.md" %}
+You can also use Truffle to test and deploy smart contracts on Avalanche. Find out how in this [tutorial](../smart-contracts/using-truffle-with-the-avalanche-c-chain.md).
 
 ### Hardhat
 
 Hardhat is the newest development and testing environment for Solidity smart contracts, and the one our developers use the most. Due to its superb testing support, it is the recommended way of developing for Avalanche.
 
-For more information see:
-
-{% page-ref page="../smart-contracts/using-hardhat-with-the-avalanche-c-chain.md" %}
+For more information see [this doc](../smart-contracts/using-hardhat-with-the-avalanche-c-chain.md).
 
 ## Avalanche Explorer
 
