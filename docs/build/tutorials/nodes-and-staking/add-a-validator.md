@@ -48,9 +48,7 @@ Open [the wallet](https://wallet.avax.network/), and go the `Earn` tab. Choose `
 
 ![Web wallet earn tab](/img/web-wallet-earn-tab.png)
 
-Fill out the staking parameters. They are explained in more detail below. When you’ve filled in all the staking parameters and double-checked them, click `Confirm`. Make sure the staking period is at least 2 weeks, the delegation fee rate is at least 2%, and you’re staking at least 2,000 AVAX.
-
-{% page-ref page="../../../learn/platform-overview/staking.md" %}
+Fill out the staking parameters. They are explained in more detail in [this doc](../../../learn/platform-overview/staking.md). When you’ve filled in all the staking parameters and double-checked them, click `Confirm`. Make sure the staking period is at least 2 weeks, the delegation fee rate is at least 2%, and you’re staking at least 2,000 AVAX.
 
 ![Earn validate](/img/earn-validate.png)
 
