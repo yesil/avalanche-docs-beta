@@ -44,9 +44,8 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/ava-labs/avax-docs',
             label: 'GitHub',
             position: 'right',
           },
@@ -59,16 +58,16 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
                 label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://chat.avax.network/',
               },
               {
                 label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                href: 'https://twitter.com/avalancheavax',
+              },
+              {
+                label: 'Website',
+                href: 'https://avax.network/',
               },
             ],
           },
@@ -76,13 +75,21 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: 'Medium',
+                href: 'https://medium.com/avalancheavax',
+              },
+              {
+                label: 'Telegram',
+                href: 'https://t.me/avalancheavax',
+              },
+              {
+                label: 'YouTube',
+                href: 'https://youtube.com/avalancheavax',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Avalanche. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
