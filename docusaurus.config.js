@@ -10,7 +10,7 @@ const config = {
   tagline: 'Avalanche Developer Documentation',
   url: 'https://docs.avax.network',
   baseUrl: '/',
-  onBrokenLinks: 'warn',
+  onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'Ava Labs', // Usually your GitHub org/user name.
