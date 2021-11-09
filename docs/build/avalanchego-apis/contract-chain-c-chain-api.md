@@ -9,7 +9,7 @@ _Note: Ethereum has its own notion of `networkID` and `chainID`. These have no r
 
 ## Deploying a Smart Contract
 
-{% page-ref page="../tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md" %}
+[Deploy a Smart Contract on Avalanche Using Remix and MetaMask](../tutorials/smart-contracts/deploy-a-smart-contract-on-avalanche-using-remix-and-metamask.md)
 
 ## Ethereum APIs
 

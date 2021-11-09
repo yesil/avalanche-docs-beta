@@ -7,9 +7,7 @@ This API can be used for measuring node health and debugging. Note that the Admi
 
 ## Format
 
-This API uses the `json 2.0` RPC format.
-
-{% page-ref page="issuing-api-calls.md" %}
+This API uses the `json 2.0` RPC format. For details, see [here](issuing-api-calls.md).
 
 ## Endpoint
 
