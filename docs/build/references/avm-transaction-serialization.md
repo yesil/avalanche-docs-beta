@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # AVM Transaction Format
 
 This file is meant to be the single source of truth for how we serialize transactions in the Avalanche Virtual Machine \(AVM\). This document uses the [primitive serialization](serialization-primitives.md) format for packing and [secp256k1](cryptographic-primitives.md#secp256k1-addresses) for cryptographic user identification.

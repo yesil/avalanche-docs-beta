@@ -3,7 +3,7 @@ description: The X-Chain is an instance of the Avalanche Virtual Machine (AVM)
 sidebar_position: 5
 ---
 
-# Exchange Chain \(X-Chain\) API
+# Exchange Chain (X-Chain) API
 
 The [X-Chain](../../learn/platform/overview/#exchange-chain-x-chain), Avalanche’s native platform for creating and trading assets, is an instance of the Avalanche Virtual Machine \(AVM\). This API allows clients to create and trade assets on the X-Chain and other instances of the AVM.
 

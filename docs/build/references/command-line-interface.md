@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Command Line Interface
 
 You can specify the configuration of a node with the arguments below.

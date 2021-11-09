@@ -1,3 +1,7 @@
+---
+sidebar_position: 6
+---
+
 # Network Protocol
 
 Avalanche network defines the core communication format between Avalanche nodes. It uses the [primitive serialization](serialization-primitives.md) format for payload packing.

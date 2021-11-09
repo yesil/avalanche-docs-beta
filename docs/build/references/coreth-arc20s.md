@@ -1,3 +1,6 @@
+---
+sidebar_position: 1
+---
 # Avalanche Native Tokens and ARC-20s
 
 ## What is an Avalanche Native Token?
