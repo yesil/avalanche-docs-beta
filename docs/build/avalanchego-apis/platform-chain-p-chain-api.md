@@ -4,7 +4,7 @@ sidebar_position: 3
 
 # Platform Chain (P-Chain) API
 
-This API allows clients to interact with the [P-Chain](../../learn/platform/overview/#platform-chain-p-chain), which maintains Avalanche’s [validator](../../learn/platform/overview/staking.md#validators) set and handles blockchain creation.
+This API allows clients to interact with the [P-Chain](../../learn/platform-overview/#platform-chain-p-chain), which maintains Avalanche’s [validator](../../learn/platform-overview/staking.md#validators) set and handles blockchain creation.
 
 ## Endpoint
 
@@ -30,7 +30,7 @@ The delegation period must be a subset of the period that the delegatee validate
 
 Note that once you issue the transaction to add a node as a delegator, there is no way to change the parameters. **You can’t remove a stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
 
-{% page-ref page="../../learn/platform/overview/staking.md" %}
+{% page-ref page="../../learn/platform-overview/staking.md" %}
 
 #### **Signature**
 
@@ -111,7 +111,7 @@ There is a maximum total weight imposed on validators. This means that no valida
 
 Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values. If you’re not sure, check out our [Developer FAQ](https://support.avalabs.org/en/collections/2618154-developer-faq) or ask for help on [Discord.](https://chat.avalabs.org/)
 
-{% page-ref page="../../learn/platform/overview/staking.md" %}
+{% page-ref page="../../learn/platform-overview/staking.md" %}
 
 #### **Signature**
 

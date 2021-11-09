@@ -35,10 +35,10 @@ const sidebars = {
           type: 'category',
           label: 'Platforms',
           items: [
-            'learn/platform/overview', 
-            'learn/platform/avalanche-consensus', 
-            'learn/platform/staking', 
-            'learn/platform/transaction-fees'
+            'learn/platform-overview/README', 
+            'learn/platform-overview/avalanche-consensus', 
+            'learn/platform-overview/staking', 
+            'learn/platform-overview/transaction-fees'
           ],
         },
         {
