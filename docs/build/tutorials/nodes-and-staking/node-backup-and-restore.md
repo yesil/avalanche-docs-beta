@@ -17,17 +17,17 @@ NodeID is a unique identifier that differentiates your node from all the other p
 
 In the default installation, they can be found in the working directory, specifically in `~/.avalanchego/staking/`. All we need to do to recreate the node on another machine is to run a new installation with those same two files.
 
-{% hint style="warning" %}
+:::caution
 If you have users defined in the keystore of your node, then you need to back up and restore those as well. [Keystore API](../../avalanchego-apis/keystore-api.md) has methods that can be used to export and import user keys. Note that Keystore API is used by developers only and not intended for use in production nodes. If you don't know what a keystore API is and have not used it, you don't need to worry about it.
-{% endhint %}
+:::
 
 ## Backup
 
 To back up your node, we need to store `staker.crt` and `staker.key` files somewhere safe and private, preferably to a different computer, to your private storage in the cloud, a USB stick or similar. Storing them to a couple of different, secure locations increases the safety.
 
-{% hint style="warning" %}
+:::caution
 If someone gets a hold of your staker files, they still cannot get to your funds, as they are controlled by the wallet private keys, not by the node. But, they could re-create your node somewhere else, and depending on the circumstances make you lose the staking rewards. So make sure your staker files are secure.
-{% endhint %}
+:::
 
 Let's get the staker files off the machine running the node.
 

@@ -14,9 +14,9 @@ To resist [sybil attacks](https://support.avalabs.org/en/articles/4064853-what-i
 
 When a validator is done validating the [Primary Network](http://support.avalabs.org/en/articles/4135650-what-is-the-primary-network), it receives back the AVAX tokens it staked. It may receive a reward for helping to secure the network. A validator only receives a [validation reward](http://support.avalabs.org/en/articles/4587396-what-are-validator-staking-rewards) if it is sufficiently responsive and correct during the time it validates. Read the [Avalanche token whitepaper](https://files.avalabs.org/papers/token.pdf) to learn more about AVAX and the mechanics of staking.
 
-{% hint style="warning" %}
+:::caution
 Staking rewards are sent to your wallet address at the end of the staking term **as long as all of these parameters are met**.
-{% endhint %}
+:::
 
 * The minimum amount that a validator must stake is 2,000 AVAX
 * The minimum amount that a delegator must delegate is 25 AVAX
@@ -40,13 +40,13 @@ When you add a node to the validator set, you specify:
 * The address to send any rewards to
 * Your delegation fee rate \(see below\)
 
-{% hint style="info" %}
+:::info
 The minimum amount that a validator must stake is 2,000 AVAX.
-{% endhint %}
+:::
 
-{% hint style="danger" %}
+:::danger
 Note that once you issue the transaction to add a node as a validator, there is no way to change the parameters. **You can’t remove your stake early or change the stake amount, node ID, or reward address.** Please make sure you’re using the correct values in the API calls below. If you’re not sure, ask for help on [Discord](https://chat.avax.network) or browse our [Developer FAQs](http://support.avalabs.org/en/collections/2618154-developer-faq). If you want to add more tokens to your own validator, you can delegate the tokens to this node - but you cannot increase the base validation amount \(so delegating to yourself goes against your delegation cap\).
-{% endhint %}
+:::
 
 ### Running a Validator <a id="running-a-validator"></a>
 
@@ -93,13 +93,13 @@ When you delegate stake to a validator, you specify:
 * How many AVAX you are staking
 * The address to send any rewards to
 
-{% hint style="info" %}
+:::info
 The minimum amount that a delegator must delegate is 25 AVAX.
-{% endhint %}
+:::
 
-{% hint style="danger" %}
+:::danger
 Note that once you issue the transaction to add your stake to a delegator, there is no way to change the parameters. **You can’t remove your stake early or change the stake amount, node ID, or reward address.** If you’re not sure, ask for help on [Discord](https://chat.avax.network) or browse our [Developer FAQs](http://support.avalabs.org/en/collections/2618154-developer-faq).
-{% endhint %}
+:::
 
 ### Delegator rewards <a id="delegator-rewards"></a>
 

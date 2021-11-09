@@ -11,13 +11,13 @@ In this tutorial \(est. time: 10 minutes\), we will:
 * Send AVAX
 * Add your node to the validator set
 
-{% hint style="warning" %}
+:::caution
 If your issue isn’t addressed in the FAQ, come ask for help in the [Avalanche Discord](https://chat.avax.network)! We will work to get you through any obstacles.
-{% endhint %}
+:::
 
-{% hint style="info" %}
+:::info
 If you're interested in using a third-party service to host your node or run a validator, [check out the options](https://docs.avax.network/learn/community#blockchain-infrastructure-and-node-services).
-{% endhint %}
+:::
 
 This tutorial is primarily geared toward developers and people interested in how the Avalanche Platform works. If you're just interested in setting up a node for staking, you may want to follow the [Set Up Avalanche Node With Installer](set-up-node-with-installer.md) tutorial instead. Installer automates the installation process and sets it up as a system service, which is recommended for unattended operation. You may also try things out by following this tutorial first, and then later set up the node using the installer as a permanent solution.
 
@@ -164,9 +164,9 @@ The response should be:
 
 Now, you have a user on this node. Keystore data exists at the node level. Users you create on one node’s Keystore do not exist on other nodes but you can import/export users to/from the Keystore. See the [Keystore API](../../avalanchego-apis/keystore-api.md) to see how.
 
-{% hint style="danger" %}
+:::danger
 **You should only keep a small amount of your funds on your node.** Most of your funds should be secured by a mnemonic that is not saved to any computer.
-{% endhint %}
+:::
 
 ### Create an Address
 
@@ -206,9 +206,9 @@ Your user now controls the address `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf7
 
 ### Send Funds From Avalanche Wallet to Your Node
 
-{% hint style="warning" %}
+:::caution
 _**Note: the instructions below move real funds.**_
-{% endhint %}
+:::
 
 Let’s move funds from the Avalanche Wallet to your node.
 
