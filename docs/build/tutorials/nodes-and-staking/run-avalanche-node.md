@@ -170,7 +170,7 @@ Now, you have a user on this node. Keystore data exists at the node level. Users
 
 Avalanche is a platform of heterogeneous blockchains, one of which is the [X-Chain](../../../learn/platform-overview/#exchange-chain-x-chain), which acts as a decentralized platform for creating and trading digital assets. We are now going to create an address to hold AVAX on our node.
 
-To create a new address on the X-Chain, call [`avm.createAddress`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-createaddress), a method of the [X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.md):
+To create a new address on the X-Chain, call [`avm.createAddress`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm-createaddress), a method of the [X-Chain’s API](../../avalanchego-apis/exchange-chain-x-chain-api.mdx):
 
 ```cpp
 curl -X POST --data '{
@@ -295,7 +295,7 @@ The response contains the transaction’s ID. It will be different for every inv
 
 #### Checking the Transaction Status
 
-This transaction will only take a second or two to finalize. We can check its status with [`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm-gettxstatus):
+This transaction will only take a second or two to finalize. We can check its status with [`avm.getTxStatus`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm-gettxstatus):
 
 ```cpp
 curl -X POST --data '{

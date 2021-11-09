@@ -30,7 +30,7 @@ The subnet needs validators in it to, well, validate blockchains.
 
 Each blockchain has some genesis state when it’s created. Each VM defines the format and semantics of its genesis data. The AVM and Coreth have a static API method named `buildGenesis` that takes in a JSON representation of a blockchain’s genesis state and returns the byte representation of that state.
 
-The [AVM’s documentation](../../avalanchego-apis/exchange-chain-x-chain-api.md) specifies that the argument to [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm.buildGenesis) should look like this:
+The [AVM’s documentation](../../avalanchego-apis/exchange-chain-x-chain-api.mdx) specifies that the argument to [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm.buildGenesis) should look like this:
 
 ```cpp
 {
@@ -82,7 +82,7 @@ The [AVM’s documentation](../../avalanchego-apis/exchange-chain-x-chain-api.md
 }
 ```
 
-To create the byte representation of this genesis state, call [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm.buildGenesis). Your call should look like the one below. Note that AVAX does not exist on custom blockchains, but you'll still need a way to pay for transaction fees on this new chain. On custom AVM instances, the transaction fees are denominated in the first asset specified in the `genesisData`. In this example, fees are paid with `asset1` \(named `myFixedCapAsset`.\) Make sure that you put enough amount to cover for fees. The default transaction fee is 1,000,000 of whatever asset the fees are denominated in. More information about fees can be found [`here.`](../../../learn/platform-overview/transaction-fees.md#transaction-fees)
+To create the byte representation of this genesis state, call [`avm.buildGenesis`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm.buildGenesis). Your call should look like the one below. Note that AVAX does not exist on custom blockchains, but you'll still need a way to pay for transaction fees on this new chain. On custom AVM instances, the transaction fees are denominated in the first asset specified in the `genesisData`. In this example, fees are paid with `asset1` \(named `myFixedCapAsset`.\) Make sure that you put enough amount to cover for fees. The default transaction fee is 1,000,000 of whatever asset the fees are denominated in. More information about fees can be found [`here.`](../../../learn/platform-overview/transaction-fees.md#transaction-fees)
 
 Note that this call is made to the AVM’s static API endpoint, `/ext/vm/avm`:
 
@@ -340,7 +340,7 @@ curl -X POST --data '{
 }
 ```
 
-Now let's send 1 unit of `asset1` to the new address with [`avm.send`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm.send).
+Now let's send 1 unit of `asset1` to the new address with [`avm.send`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm.send).
 
 ```cpp
 curl -X POST --data '{
@@ -457,7 +457,7 @@ This address had 100,000,000 `asset1`, then we sent 1 unit to the other address 
 
 ### Mint Asset
 
-Our blockchain has another asset `asset2` named `myVarCapAsset`. It is a variable-cap asset. Let's mint more units of this asset with [`avm.mint`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm.mint). Address `avax16k8n4d8xmhplqn5vhhm342g6n9rkxuj8wn6u70` controls the mintable asset `asset2`, and it also has 5,000,000 unit `asset1`, which is enough to pay the transaction fee.
+Our blockchain has another asset `asset2` named `myVarCapAsset`. It is a variable-cap asset. Let's mint more units of this asset with [`avm.mint`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm.mint). Address `avax16k8n4d8xmhplqn5vhhm342g6n9rkxuj8wn6u70` controls the mintable asset `asset2`, and it also has 5,000,000 unit `asset1`, which is enough to pay the transaction fee.
 
 ```cpp
 curl -X POST --data '{
@@ -490,7 +490,7 @@ curl -X POST --data '{
 }
 ```
 
-Let's check the balance with [`avm.getAllBalances`](../../avalanchego-apis/exchange-chain-x-chain-api.md#avm.getAllBalances).
+Let's check the balance with [`avm.getAllBalances`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm.getAllBalances).
 
 ```cpp
 curl -X POST --data '{

@@ -135,7 +135,7 @@ func main() {
 
 #### X-Chain
 
-You can use X-Chain API method [avm.getTx](../avalanchego-apis/exchange-chain-x-chain-api.md#avm.gettx) to get an X-Chain transaction by its ID. Set `encoding` to `json` to get a human-readable JSON response.
+You can use X-Chain API method [avm.getTx](../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm.gettx) to get an X-Chain transaction by its ID. Set `encoding` to `json` to get a human-readable JSON response.
 
 **Example Call**
 

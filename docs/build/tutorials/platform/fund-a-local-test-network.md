@@ -36,7 +36,7 @@ Next you can import the pre-funded private key, `PrivateKey-ewoqjP7PxY4yr3iLTpLi
 
 ## X-Chain
 
-Import `ewoq` into the [X-Chain](../../avalanchego-apis/exchange-chain-x-chain-api.md).
+Import `ewoq` into the [X-Chain](../../avalanchego-apis/exchange-chain-x-chain-api.mdx).
 
 ```text
 curl --location --request POST '127.0.0.1:9650/ext/bc/X' \
