@@ -60,7 +60,7 @@ const sidebars = {
         {
           type: 'link',
           label: 'Ecosystem', // The link label
-          href: 'https://www.avax.network/ecosystem', // The external URL
+          href: 'https://ecosystem.avax.network/', // The external URL
         },
       ],
     },

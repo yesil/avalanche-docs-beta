@@ -66,21 +66,21 @@ const config = {
                 href: 'https://twitter.com/avalancheavax',
               },
               {
-                label: 'Website',
-                href: 'https://avax.network/',
-              },
+                label: 'Telegram',
+                href: 'https://t.me/avalancheavax',
+              }
             ],
           },
           {
             title: 'More',
             items: [
               {
-                label: 'Medium',
-                href: 'https://medium.com/avalancheavax',
+                label: 'Ecosystem',
+                href: 'https://ecosystem.avax.network/',
               },
               {
-                label: 'Telegram',
-                href: 'https://t.me/avalancheavax',
+                label: 'Medium',
+                href: 'https://medium.com/avalancheavax',
               },
               {
                 label: 'YouTube',
