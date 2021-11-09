@@ -1,6 +1,50 @@
-# AvalancheGo Release Notes
+# AvalancheGo
 
 {% page-ref page="../tutorials/nodes-and-staking/upgrade-your-avalanchego-node.md" %}
+
+## v1.6.4 \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.6.4)\)
+
+This version is backwards compatible to [v1.6.0](https://github.com/ava-labs/avalanchego/releases/tag/v1.6.0). It is optional, but encouraged.
+
+### Config
+
+- Added flag `throttler-inbound-bandwidth-refill-rate`, which specifies the max average inbound bandwidth usage of a peer.
+- Added flag `throttler-inbound-bandwidth-max-burst-size`, which specifies the max inbound bandwidth usage of a peer.
+
+### Networking
+
+- Updated peerlist gossiping to use the same mechanism as other gossip calls.
+- Added inbound message throttling based on recent bandwidth usage.
+
+### Metrics
+
+- Updated `avalanche_{ChainID}_handler_gossip_{count,sum}` to `avalanche_{ChainID}_handler_gossip_request_{count,sum}`.
+- Updated `avalanche_{ChainID}_lat_get_accepted_{count,sum}` to `avalanche_{ChainID}_lat_accepted_{count,sum}`.
+- Updated `avalanche_{ChainID}_lat_get_accepted_frontier_{count,sum}` to `avalanche_{ChainID}_lat_accepted_frontier_{count,sum}`.
+- Updated `avalanche_{ChainID}_lat_get_ancestors_{count,sum}` to `avalanche_{ChainID}_lat_multi_put_{count,sum}`.
+- Combined `avalanche_{ChainID}_lat_pull_query_{count,sum}` and `avalanche_{ChainID}_lat_push_query_{count,sum}` to `avalanche_{ChainID}_lat_chits_{count,sum}`.
+- Added `avalanche_{ChainID}_app_response_{count,sum}`.
+- Added `avalanche_network_bandwidth_throttler_inbound_acquire_latency_{count,sum}`
+- Added `avalanche_network_bandwidth_throttler_inbound_awaiting_acquire`
+- Added `avalanche_P_vm_votes_won`
+- Added `avalanche_P_vm_votes_lost`
+
+### Indexer
+
+- Added method `GetContainerByID` to client implementation.
+- Client methods now return `[]byte` rather than `string` representations of a container.
+
+### C-Chain
+
+- Updated Geth dependency to 1.10.11.
+- Added a new admin API for updating the log level and measuring performance.
+- Added a new `--allow-unprotected-txs` flag to allow issuance of transactions without EIP-155 replay protection.
+
+### Subnet & Custom VMs
+
+- Ensured that all possible chains are run in `--staking-enabled=false` networks.
+
+---
 
 ## v1.6.3 \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.6.3)\)
 
@@ -431,9 +475,9 @@ Updated the bootstrap IPs for the Fuji Testnet.
 
 **Apricot Phase 2 - Patch 10**
 
-:::caution
+{% hint style="warning" %}
 This update is backwards compatible. It is optional, but encouraged.
-:::
+{% endhint %}
 
 The patch includes performance, throttling, and VM improvements:
 
@@ -451,9 +495,9 @@ The patch includes performance, throttling, and VM improvements:
 
 **Apricot Phase 2 - Patch 9**
 
-:::caution
+{% hint style="warning" %}
 This update is backwards compatible. It is optional, but encouraged.
-:::
+{% endhint %}
 
 The patch includes performance improvements, and monitoring improvements:
 
@@ -473,9 +517,9 @@ The patch includes performance improvements, and monitoring improvements:
 
 **Apricot Phase 2 - Patch 8**
 
-:::caution
+{% hint style="warning" %}
 This update is backwards compatible. It is optional, but encouraged.
-:::
+{% endhint %}
 
 The patch includes performance improvements, monitoring improvements, and subnet fixes:
 
@@ -512,9 +556,9 @@ The patch includes performance improvements, monitoring improvements, and subnet
 
 **Apricot Phase 2 - Patch 7**
 
-:::caution
+{% hint style="warning" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes performance improvements and bug fixes.
-:::
+{% endhint %}
 
 If the previously installed node version is &lt;= v1.4.4 then this node may have stopped processing blocks. This update will repair the node and perform a database migration. For details about the database migration please see the [v1.4.5 database migration notes](avalanchego-v1.4.5-database-migration.md). If the previously installed node version is &gt;=v1.4.5 then this node will use the existing database and does not need to perform a database migration.
 
@@ -529,9 +573,9 @@ If the previously installed node version is &lt;= v1.4.4 then this node may have
 
 **Apricot Phase 2 - Patch 6**
 
-:::caution
+{% hint style="warning" %}
 This update is backwards compatible. It is optional, but encouraged. This patch includes performance improvements and bug fixes.
-:::
+{% endhint %}
 
 **If the previously installed node version is &lt;= v1.4.4 then this node will perform a database migration. For details about the database migration please see the v1.4.5 release notes.** If the previously installed node version is v1.4.5 then this node use the existing database and does not need to perform a database migration.
 
@@ -550,9 +594,9 @@ This patch:
 
 **This upgrade is more involved than the typical version update. More detailed instructions and an FAQ can be found** [**here**](https://docs.avax.network/build/release-notes/avalanchego-v1.4.5-database-migration)**.**
 
-:::caution
+{% hint style="warning" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes significant performance improvements and numerous other updates.
-:::
+{% endhint %}
 
 **VM Improvements:**
 
@@ -642,9 +686,9 @@ It is no longer required that the `bootstrap-ips` and `bootstrap-ids` are paired
 
 **Apricot Phase 2 - Patch 4**
 
-:::caution
+{% hint style="warning" %}
 This update is backwards compatible. It is optional, but encouraged.
-:::
+{% endhint %}
 
 The patch includes bug fixes and performance improvements that aim to optimize the upcoming `db-upgrade` release.
 
@@ -659,9 +703,9 @@ The patch includes bug fixes and performance improvements that aim to optimize t
 
 **Apricot Phase 2 - Patch 3**
 
-:::caution
+{% hint style="warning" %}
 This update is backwards compatible. It is optional, but encouraged.
-:::
+{% endhint %}
 
 The patch includes bug fixes, updated uptime monitoring, and performance improvements.
 
@@ -677,9 +721,9 @@ The patch includes bug fixes, updated uptime monitoring, and performance improve
 
 **Apricot Phase 2 - Patch 2**
 
-:::caution
+{% hint style="warning" %}
 This update is backwards compatible with v1.4.0 and v1.4.1. The changes in the upgrade go into effect at 10 AM EDT, May 5th 2021 on the Fuji testnet and 7 AM EDT, May 10th 2021 on mainnet.
-:::
+{% endhint %}
 
 The patch further reduces the size of gossiped peerlist messages and introduces several new flags:
 
@@ -691,9 +735,9 @@ The patch further reduces the size of gossiped peerlist messages and introduces 
 
 **Apricot Phase 2 - Patch 1**
 
-:::caution
+{% hint style="warning" %}
 This update is backwards compatible with v1.4.0. Please see the expected update times in the v1.4.0 release.
-:::
+{% endhint %}
 
 The patch reduces the size of gossiped peerlist messages and introduces a new flag `--bootstrap-beacon-connection-timeout` that allows for the beacon connection timeout to be configured on startup.
 
@@ -701,17 +745,17 @@ The patch reduces the size of gossiped peerlist messages and introduces a new fl
 
 **Apricot Phase 2**
 
-:::danger
+{% hint style="danger" %}
 **Please note that this change is not backwards compatible with previous releases.**
 
 **The related blog post can be found** [**here**](https://medium.com/avalancheavax/apricot-phase-two-berlin-eips-enhanced-avalanche-native-token-ant-support-c2ae0febe5bf)**.**
-:::
+{% endhint %}
 
-:::caution
+{% hint style="warning" %}
 This upgrade applies the Ethereum Berlin upgrade to the C-chain, adds a new AVM endpoint, and includes various stability improvements. We urge everyone in the community to update as soon as possible in order to ensure that their nodes remain healthy.
 
 The changes in the upgrade go into effect at 10 AM EDT, May 5th 2021 on the Fuji testnet and 7 AM EDT, May 10th 2021 on mainnet.
-:::
+{% endhint %}
 
 **The primary components to this upgrade include:**
 
@@ -741,9 +785,9 @@ The changes in the upgrade go into effect at 10 AM EDT, May 5th 2021 on the Fuji
 
 **Apricot Phase 1 - Patch 2**
 
-:::danger
+{% hint style="danger" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes security improvements, bug fixes, and monitoring improvements.
-:::
+{% endhint %}
 
 **Security Improvements**
 
@@ -765,9 +809,9 @@ This update is backwards compatible. It is optional, but encouraged. The patch i
 
 **Apricot Phase 1 - Patch 1**
 
-:::danger
+{% hint style="danger" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes stability, monitoring improvements, and minor bug fixes.
-:::
+{% endhint %}
 
 **The primary components to this upgrade include:**
 
@@ -790,11 +834,11 @@ This update is backwards compatible. It is optional, but encouraged. The patch i
 
 **Apricot Phase 1**
 
-:::danger
+{% hint style="danger" %}
 Please note that this change is not backwards compatible with previous releases.
 
 This upgrade reduces C-chain gas fees, removes C-chain gas refunds, and includes various security improvements. We urge everyone in the community to update as soon as possible in order to ensure that their nodes remain healthy.
-:::
+{% endhint %}
 
 The changes in the upgrade go into effect at 10 AM EST, March 25th 2021 on the Fuji testnet and 10 AM EST, March 31st 2021 on mainnet.
 
@@ -824,9 +868,9 @@ The changes in the upgrade go into effect at 10 AM EST, March 25th 2021 on the F
 
 **Apricot Phase 0 - Upgrade 1 - Patch 4**
 
-:::danger
+{% hint style="danger" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes stability and monitoring improvements.
-:::
+{% endhint %}
 
 * Updated readme to correct storage requirements.
 * Added additional error handling to Avalanche Tx verification during bootstrapping.
@@ -838,9 +882,9 @@ This update is backwards compatible. It is optional, but encouraged. The patch i
 
 **Apricot Phase 0 - Upgrade 1 - Patch 3**
 
-:::danger
+{% hint style="danger" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes stability and monitoring improvements.
-:::
+{% endhint %}
 
 * Adjusted `[network, router, consensus]` health check parameters to remove flaky health checks.
 * Simplified C-chain block handling.
@@ -849,9 +893,9 @@ This update is backwards compatible. It is optional, but encouraged. The patch i
 
 **Apricot Phase 0 - Upgrade 1 - Patch 2**
 
-:::danger
+{% hint style="danger" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes stability, performance, and monitoring improvements.
-:::
+{% endhint %}
 
 * Added IP aliases in the network library to avoid repeated `SYN` calls.
 * Fixed bootstrap message handling when bootstrapping from yourself.
@@ -869,11 +913,11 @@ This update is backwards compatible. It is optional, but encouraged. The patch i
 
 **Apricot Phase 0 - Upgrade 1 - Patch 1**
 
-:::danger
+{% hint style="danger" %}
 This update is backwards compatible. It is optional, but encouraged. The patch includes stability, performance, and monitoring improvements.
 
 Please note that this update removes \`network-timeout-increase\` and ‘network-timeout-reduction\` as command line arguments.
-:::
+{% endhint %}
 
 Change Summary:
 
@@ -921,9 +965,9 @@ Removed command line arguments:
 
 **Apricot Phase 0 - Upgrade 1**
 
-:::danger
+{% hint style="danger" %}
 **Please note that this patch is not backwards compatible with previous releases. This upgrade fixes performance issues related to interchange transfers between X, C, and P chains. We urge everyone in the community to upgrade as soon as possible in order to ensure that their nodes are not affected. Also, note that nodes may take several extra minutes to connect after the upgrade and the process should be allowed to complete uninterrupted.**
-:::
+{% endhint %}
 
 The primary components to this upgrade include:
 
@@ -941,9 +985,9 @@ The primary components to this upgrade include:
 
 **Apricot Phase 0 - Patch 5**
 
-:::danger
+{% hint style="danger" %}
 This update is backwards compatible. It is optional but encouraged. The patch includes stability improvements.
-:::
+{% endhint %}
 
 * Fixed a potential deadlock when registering new chains that could cause the P-chain and http\(s\) endpoint to block.
 * Repairs TxID -&gt; Block Height indexing in the C-chain.
@@ -954,9 +998,9 @@ This update is backwards compatible. It is optional but encouraged. The patch in
 
 **Apricot Phase 0 - Patch 4**
 
-:::danger
+{% hint style="danger" %}
 This update is backwards compatible. It is optional but encouraged. The patch includes CLI upgrades, API bug fixes, stability improvements, and performance improvements.
-:::
+{% endhint %}
 
 * Fixed an issue where C-chain block indexes could map to unaccepted blocks at a given height.
 * Fixed VM crash when the RPCChainVM experienced high API loads.
@@ -971,9 +1015,9 @@ This update is backwards compatible. It is optional but encouraged. The patch in
 
 **Apricot Phase 0 - Patch 3**
 
-:::danger
+{% hint style="danger" %}
 This update is optional but encouraged. The patch includes minor bug fixes relating to APIs.
-:::
+{% endhint %}
 
 * Fixed hanging call when attempting to filter C-chain logs.
 * Fixed C-chain client to call the proper multi-coin API.
@@ -983,9 +1027,9 @@ This update is optional but encouraged. The patch includes minor bug fixes relat
 
 **Apricot Phase 0 - Patch 2**
 
-:::danger
+{% hint style="danger" %}
 This update is optional but encouraged. The patch includes bug fixes and performance improvements.
-:::
+{% endhint %}
 
 * Fixed bootstrapping processing cache to reduce duplicated traversals when bootstrapping Avalanche.
 * Optimized P-chain verification during bootstrapping.
@@ -997,9 +1041,9 @@ This update is optional but encouraged. The patch includes bug fixes and perform
 
 **Apricot Phase 0 - Patch 1**
 
-:::danger
+{% hint style="danger" %}
 This update is optional but encouraged. The patch includes bug fixes and performance improvements.
-:::
+{% endhint %}
 
 * Fixed a node crash bug when users disabled the `Health` API.
 * Fixed a bug in uptime tracking that could over report a node's uptime.
@@ -1017,9 +1061,9 @@ This update is optional but encouraged. The patch includes bug fixes and perform
 
 **Apricot Phase 0**
 
-:::danger
+{% hint style="danger" %}
 **Please note that this upgrade is not backwards compatible with previous releases. Upgrades must be performed no later than Monday, December 7th at 11 p.m. UTC \(6 p.m. EST\). The upgrade, which was originally scheduled around mid December, is now being expedited to fix an important token unlocking bug. We urge everyone in the community to upgrade as soon as possible in order to ensure that their nodes are not affected.**
-:::
+{% endhint %}
 
 There are two primary components to this upgrade:
 
@@ -1028,9 +1072,9 @@ There are two primary components to this upgrade:
 
 ## v1.0.6 \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.6)\)
 
-:::danger
+{% hint style="danger" %}
 Please note that this release contains breaking changes described [here](https://docs.avax.network/build/apis/deprecated-api-calls). It changes the default response format of platform.getTxStatus and platform.getCurrentValidators. The update is optional but encouraged. The patch includes performance improvements and some quality of life improvements.
-:::
+{% endhint %}
 
 * Removed deprecated formats of  platform.getTxStatus and platform.getCurrentValidators.
 * Added support for hex encodings of imported and exported users from the keystore API.
@@ -1049,9 +1093,9 @@ For assistance with this update, follow our [Developer FAQ](https://support.aval
 
 ## v1.0.5  \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.5)\)
 
-:::danger
+{% hint style="danger" %}
 Please note that the release after this one, v1.0.6, will contain the breaking changes described [here](https://docs.avax.network/build/apis/deprecated-api-calls). Namely, the response format of `platform.getTxStatus` and `platform.getCurrentValidators` will change.
-:::
+{% endhint %}
 
 The changes in this release, v1.0.5, are backwards compatible with previous releases. The update is optional but encouraged. The patch includes performance improvements and some quality of life improvements.
 
@@ -1071,9 +1115,9 @@ For assistance with this update, follow our [Developer FAQ](https://support.aval
 
 ## v1.0.4  \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.0.4)\)
 
-:::danger
+{% hint style="danger" %}
 This update is optional but encouraged. The patch includes quality of life improvements and various performance enhancements. Note that this update requires the CLI parameters to be specified with -- rather than allowing for either - or --. For example, `-public-ip=127.0.0.1` is no longer allowed and must be specified as `--public-ip=127.0.0.1`. Otherwise, this update is backwards compatible.
-:::
+{% endhint %}
 
 ```text
 • Added subnet whitelisting to allow a node owner to choose which subnets to validate.
