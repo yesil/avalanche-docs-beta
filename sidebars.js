@@ -76,8 +76,8 @@ const sidebars = {
             'build/release-notes/avalanchego', 
             {
               type: 'link',
-              label: 'Email Alerts', // The link label
-              href: 'http://eepurl.com/heNhSX', // The external URL
+              label: 'Avalanche Notify', // The link label
+              href: 'https://notify.avax.network/', // The external URL
             },
           ],
         },
