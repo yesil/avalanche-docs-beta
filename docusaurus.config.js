@@ -13,8 +13,8 @@ const config = {
   onBrokenLinks: 'ignore',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
-  organizationName: 'Ava Labs', // Usually your GitHub org/user name.
-  projectName: 'Developer Docs', // Usually your repo name.
+  organizationName: 'ava-labs', // Usually your GitHub org/user name.
+  projectName: 'avax-docs', // Usually your repo name.
 
   presets: [
     [
@@ -25,7 +25,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           // Please change this to your repo.
-          editUrl: 'https://github.com/ava-labs/avax-docs/tree/main/',
+          editUrl: 'https://github.com/ava-labs/avax-docs/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -59,7 +59,7 @@ const config = {
             items: [
               {
                 label: 'Discord',
-                href: 'https://chat.avax.network/',
+                href: 'https://chat.avax.network',
               },
               {
                 label: 'Twitter',
@@ -76,7 +76,7 @@ const config = {
             items: [
               {
                 label: 'Ecosystem',
-                href: 'https://ecosystem.avax.network/',
+                href: 'https://ecosystem.avax.network',
               },
               {
                 label: 'Medium',
@@ -89,7 +89,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} Avalanche. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Ava Labs, Inc.`,
       },
       prism: {
         theme: lightCodeTheme,
