@@ -21,9 +21,9 @@ Prerequisites:
 
 ### **Caveat: Security**
 
-{% hint style="danger" %}
+:::danger
 The system as described here **should not** be opened to the public internet. Neither Prometheus nor Grafana as shown here is hardened against unauthorized access. Make sure that both of them are accessible only over a secured proxy, local network, or VPN. Setting that up is beyond the scope of this tutorial, but exercise caution. Bad security practices could lead to attackers gaining control over your node! It is your responsibility to follow proper security practices.
-{% endhint %}
+:::
 
 ### Contributions
 
@@ -166,9 +166,9 @@ Sep 13 15:00:04 ubuntu prometheus[1767]: level=info ts=2020-09-13T13:00:04.776Z 
 
 You can also check Prometheus web interface, available on `http://your-node-host-ip:9090/`
 
-{% hint style="warning" %}
+:::caution
 You may need to do `sudo ufw allow 9090/tcp` if the firewall is on**.**
-{% endhint %}
+:::
 
 ## Install Grafana
 
@@ -214,9 +214,9 @@ sudo systemctl status grafana-server
 
 which should show grafana as `active`. Grafana should now be available at `http://your-node-host-ip:3000/`
 
-{% hint style="warning" %}
+:::caution
 You may need to do `sudo ufw allow 3000/tcp` if the firewall is on**.**
-{% endhint %}
+:::
 
 Log in with username/password admin/admin and set up a new, secure password. Now we need to connect Grafana to our data source, Prometheus.
 

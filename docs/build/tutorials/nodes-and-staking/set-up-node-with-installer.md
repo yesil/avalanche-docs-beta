@@ -275,9 +275,9 @@ To install a specific version, run the script with `--version` followed by the t
 ./avalanchego-installer.sh --version v1.3.1
 ```
 
-{% hint style="danger" %}
+:::danger
 Note that not all AvalancheGo versions are compatible. You should generally run the latest version. Running a version other than latest may lead to your node not working properly and, for validators, not receiving a staking reward.
-{% endhint %}
+:::
 
 Thanks to community member [Jean Zundel](https://github.com/jzu) for the inspiration and help implementing support for installing non-latest node versions.
 
