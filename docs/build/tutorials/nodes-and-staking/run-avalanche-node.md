@@ -2,8 +2,6 @@
 
 The quickest way to learn about Avalanche is to run a node and interact with the network.
 
-{% embed url="https://youtu.be/c\_SjtCiOFdg" caption="" %}
-
 In this tutorial \(est. time: 10 minutes\), we will:
 
 * Install and run an Avalanche node
@@ -352,17 +350,4 @@ The response should be:
 
 In the same fashion, we could check `X-avax1xeaj0h9uy7c5jn6fxjp0rg4g39jeh0hl27vf75` to see that AVAX we sent was deducted from its balance, as well as the transaction fee.
 
-{% page-ref page="add-a-validator.md" %}
-
-{% page-ref page="../../tools/avalanchejs/create-an-asset-on-the-x-chain.md" %}
-
-{% page-ref page="../platform/create-avm-blockchain.md" %}
-
-{% page-ref page="../platform/create-custom-blockchain.md" %}
-
-{% page-ref page="../platform/create-a-subnet.md" %}
-
-{% page-ref page="../../avalanchego-apis/" %}
-
-{% page-ref page="../../references/" %}
 
