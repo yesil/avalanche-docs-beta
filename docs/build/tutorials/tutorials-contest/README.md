@@ -1,4 +1,4 @@
-# Tutorials Contest
+# Winners
 
 On Aug 2nd 2021, Avalanche launched a [contest](https://medium.com/avalancheavax/avalanche-launches-developer-tutorial-contest-with-50k-in-prizes-7d8b4422399f) for the best developer tutorials to help others build on the platform. Anyone was able to submit a tutorial, with selected tutorials eligible to win a portion of the $50,000 prize pool.
 
@@ -18,7 +18,7 @@ Here you can see the entries of the Avalanche Developer Contest Winners:
 
 ## Social DApps
 
-* [eVoting Dapp](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/evoting-avalanche-dapp/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
+* [eVoting Dapp](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/evoting-avalanche-dapp/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
 * [Avalanche DAO](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/avalanche-DAO/README.md) by [Arturo Castañon](https://github.com/ArturVargas)
 
 ## NFTs
