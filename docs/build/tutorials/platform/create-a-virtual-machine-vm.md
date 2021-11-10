@@ -1,4 +1,4 @@
-# Create a Virtual Machine \(VM\)
+# Create a Virtual Machine (VM)
 
 ## Introduction
 
@@ -943,7 +943,6 @@ In this tutorial, we learned:
 * The `core.SnowmanVM` and `core.Block` library types, which make defining VMs faster
 * The `rpcchainvm` type, which allows blockchains to run in their own processes.
 
-Now we can create a new blockchain with this custom virtual machine.
+Now we can create a new blockchain with this custom virtual machine by following [this](create-custom-blockchain.md).
 
-{% page-ref page="create-custom-blockchain.md" %}
 

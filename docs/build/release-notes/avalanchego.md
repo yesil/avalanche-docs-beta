@@ -1,6 +1,10 @@
 # AvalancheGo
 
-{% page-ref page="../tutorials/nodes-and-staking/upgrade-your-avalanchego-node.mdx" %}
+:::info
+
+[Upgrade Your AvalancheGo Node](../tutorials/nodes-and-staking/upgrade-your-avalanchego-node.mdx)
+
+:::
 
 ## v1.6.4 \([View on GitHub](https://github.com/ava-labs/avalanchego/releases/tag/v1.6.4)\)
 

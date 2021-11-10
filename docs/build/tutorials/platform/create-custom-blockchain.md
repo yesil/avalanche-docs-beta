@@ -18,19 +18,27 @@ Next, you need to have your node be a validator on the [Primary Network](http://
 
 Every blockchain is an instance of a virtual machine. For example X-Chain is an instance of AVM and C-Chain is EVM's instance. Avalanche supports creating new blockchains \(instances\) from Virtual Machines. In this case we will use [Timestamp VM](https://github.com/ava-labs/timestampvm), which is an external VM plugin. Timestamp VM will communicate with our AvalancheGo node through RPC.
 
-{% page-ref page="create-a-virtual-machine-vm.md" %}
+:::info
+[Create a Virtual Machine (VM)](create-a-virtual-machine-vm.md)
+:::
 
 ## Create the Subnet
 
 Every blockchain is validated by a [subnet](../../../learn/platform-overview/#subnets). Before you can create a blockchain, you’ll need a subnet to validate it. You can also use a subnet that already exists if you have a sufficient number of its control keys.
 
-{% page-ref page="create-a-subnet.md" %}
+:::info
+[Create a Subnet](create-a-subnet.md)
+:::
+
 
 ### Add Validators to the Subnet
 
 The subnet needs validators in it to, well, validate blockchains.
 
-{% page-ref page="../nodes-and-staking/add-a-validator.md" %}
+:::info
+[Add a node to the Validator Set](../nodes-and-staking/add-a-validator.md)
+:::
+
 
 ### Create the Genesis Data <a id="create-the-genesis-data"></a>
 

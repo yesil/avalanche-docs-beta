@@ -276,7 +276,11 @@ If you want to specify a particular address where change should go, you can spec
 
 In order to prevent spam, Avalanche requires the payment of a transaction fee. The transaction fee will be automatically deducted from an address controlled by your user when you issue a transaction. Keep that in mind when you’re checking balances below.
 
-{% page-ref page="../../../learn/platform-overview/transaction-fees.md" %}
+:::info
+
+[Transaction Fees](../../../learn/platform-overview/transaction-fees.md)
+
+:::
 
 When you send this request, the node will authenticate you using your username and password. Then, it will look through all the [private keys](http://support.avalabs.org/en/articles/4587058-what-are-public-and-private-keys) controlled by your user until it finds enough AVAX to satisfy the request.
 
