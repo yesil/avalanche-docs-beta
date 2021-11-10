@@ -8,13 +8,13 @@ Here you can see the entries of the Avalanche Developer Contest Winners:
 
 ## DeFi
 
-* [Avalanche Chainlink tutorial](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/red-dev-avalanche-chainlink-tutorial/README.md) by [red·dev](https://www.red.dev)
-* [Pangolin Token Subgraph](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/pangolin-token-subgraph/README.md) by [Ofem Eteng](https://github.com/ofemeteng)
+* [Avalanche Chainlink tutorial](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/red-dev-avalanche-chainlink-tutorial/README.md) by [red·dev](https://www.red.dev)
+* [Pangolin Token Subgraph](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/pangolin-token-subgraph/README.md) by [Ofem Eteng](https://github.com/ofemeteng)
 
 ## Smart Contracts
 
-* [Hardhat forking tutorial](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/hardhat-fork/README.md) by [Tristan Brunain](https://github.com/tbrunain)
-* [Signature Verification in a dApp](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/red-dev-sig-verify-tutorial/README.md) by [red·dev](https://www.red.dev)
+* [Hardhat forking tutorial](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/hardhat-fork/README.md) by [Tristan Brunain](https://github.com/tbrunain)
+* [Signature Verification in a dApp](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/red-dev-sig-verify-tutorial/README.md) by [red·dev](https://www.red.dev)
 
 ## Social DApps
 
