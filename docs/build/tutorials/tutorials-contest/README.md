@@ -19,20 +19,20 @@ Here you can see the entries of the Avalanche Developer Contest Winners:
 ## Social DApps
 
 * [eVoting Dapp](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/evoting-avalanche-dapp/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
-* [Avalanche DAO](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/avalanche-DAO/README.md) by [Arturo Castañon](https://github.com/ArturVargas)
+* [Avalanche DAO](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/avalanche-DAO/README.md) by [Arturo Castañon](https://github.com/ArturVargas)
 
 ## NFTs
 
 * [NFT Marketplace](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/NFT-Marketplace-on-Avalanche/README.md) by [Berkay Saglam](https://github.com/trizin)
-* [NFT tutorial](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/avalanche-erc721-tutorial/README.md) by [Metodi Manov](https://github.com/metodi96)
+* [NFT tutorial](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/avalanche-erc721-tutorial/README.md) by [Metodi Manov](https://github.com/metodi96)
 
 ## Tokenization
 
-* [Minting ERC-721s](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/how-to-mint-erc721-using-openzeppelin/tutorial.md) by [Harpalsinh Jadeja](https://github.com/therealharpaljadeja)
+* [Minting ERC-721s](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/how-to-mint-erc721-using-openzeppelin/tutorial.md) by [Harpalsinh Jadeja](https://github.com/therealharpaljadeja)
 
 ## Additional Topics
 
-* [Chat Dapp on Avalanche](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/avax-chat-dapp/README.md) by [Nimish Agrawal](https://github.com/realnimish)
+* [Chat Dapp on Avalanche](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/avax-chat-dapp/README.md) by [Nimish Agrawal](https://github.com/realnimish)
 * [Auction Manager](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/drizzle-auction-manager/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
 * [Distributed File Manager](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/distributed-file-manager/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
 
