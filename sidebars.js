@@ -68,6 +68,7 @@ const sidebars = {
       type: 'category',
       label: 'Build',
       collapsible: true,
+      collapsed: false,
       items: [
         {
           type: 'category',
