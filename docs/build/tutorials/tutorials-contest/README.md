@@ -34,7 +34,7 @@ Here you can see the entries of the Avalanche Developer Contest Winners:
 
 * [Chat Dapp on Avalanche](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/avax-chat-dapp/README.md) by [Nimish Agrawal](https://github.com/realnimish)
 * [Auction Manager](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/drizzle-auction-manager/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
-* [Distributed File Manager](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/distributed-file-manager/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
+* [Distributed File Manager](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/distributed-file-manager/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
 
 A big congratulations to our winners!
 
