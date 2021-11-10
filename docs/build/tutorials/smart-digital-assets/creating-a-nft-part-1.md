@@ -1,4 +1,4 @@
-# Create an NFT \(Part 1\)
+# Create an NFT (Part 1)
 
 ## Introduction
 
