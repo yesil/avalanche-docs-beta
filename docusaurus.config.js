@@ -14,7 +14,7 @@ const config = {
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.png',
   organizationName: 'ava-labs', // Usually your GitHub org/user name.
-  projectName: 'avax-docs', // Usually your repo name.
+  projectName: 'avalanche-docs-beta', // Usually your repo name.
 
   plugins: [require.resolve('docusaurus-lunr-search')],
 
@@ -32,7 +32,7 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           routeBasePath: '/',
           // Please change this to your repo.
-          editUrl: 'https://github.com/ava-labs/avax-docs/edit/main/',
+          editUrl: 'https://github.com/ava-labs/avalanche-docs-beta/edit/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -52,7 +52,7 @@ const config = {
         },
         items: [
           {
-            href: 'https://github.com/ava-labs/avax-docs',
+            href: 'https://github.com/ava-labs/avalanche-docs-beta',
             label: 'GitHub',
             position: 'right',
           },
