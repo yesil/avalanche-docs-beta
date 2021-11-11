@@ -8,33 +8,33 @@ Here you can see the entries of the Avalanche Developer Contest Winners:
 
 ## DeFi
 
-* [Avalanche Chainlink tutorial](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/red-dev-avalanche-chainlink-tutorial/README.md) by [red·dev](https://www.red.dev)
-* [Pangolin Token Subgraph](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/pangolin-token-subgraph/README.md) by [Ofem Eteng](https://github.com/ofemeteng)
+* [Avalanche Chainlink tutorial](./red-dev-avalanche-chainlink-tutorial/README.md) by [red·dev](https://www.red.dev)
+* [Pangolin Token Subgraph](./pangolin-token-subgraph/README.md) by [Ofem Eteng](https://github.com/ofemeteng)
 
 ## Smart Contracts
 
-* [Hardhat forking tutorial](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/hardhat-fork/README.md) by [Tristan Brunain](https://github.com/tbrunain)
-* [Signature Verification in a dApp](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/red-dev-sig-verify-tutorial/README.md) by [red·dev](https://www.red.dev)
+* [Hardhat forking tutorial](./hardhat-fork/README.md) by [Tristan Brunain](https://github.com/tbrunain)
+* [Signature Verification in a dApp](./red-dev-sig-verify-tutorial/README.md) by [red·dev](https://www.red.dev)
 
 ## Social DApps
 
-* [eVoting Dapp](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/evoting-avalanche-dapp/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
-* [Avalanche DAO](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/avalanche-DAO/README.md) by [Arturo Castañon](https://github.com/ArturVargas)
+* [eVoting Dapp](./evoting-avalanche-dapp/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
+* [Avalanche DAO](./avalanche-DAO/README.md) by [Arturo Castañon](https://github.com/ArturVargas)
 
 ## NFTs
 
-* [NFT Marketplace](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/NFT-Marketplace-on-Avalanche/README.md) by [Berkay Saglam](https://github.com/trizin)
-* [NFT tutorial](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/avalanche-erc721-tutorial/README.md) by [Metodi Manov](https://github.com/metodi96)
+* [NFT Marketplace](./NFT-Marketplace-on-Avalanche/README.md) by [Berkay Saglam](https://github.com/trizin)
+* [NFT tutorial](./avalanche-erc721-tutorial/README.md) by [Metodi Manov](https://github.com/metodi96)
 
 ## Tokenization
 
-* [Minting ERC-721s](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/how-to-mint-erc721-using-openzeppelin/tutorial.md) by [Harpalsinh Jadeja](https://github.com/therealharpaljadeja)
+* [Minting ERC-721s](./how-to-mint-erc721-using-openzeppelin/tutorial.md) by [Harpalsinh Jadeja](https://github.com/therealharpaljadeja)
 
 ## Additional Topics
 
-* [Chat Dapp on Avalanche](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/avax-chat-dapp/README.md) by [Nimish Agrawal](https://github.com/realnimish)
-* [Auction Manager](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/drizzle-auction-manager/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
-* [Distributed File Manager](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/distributed-file-manager/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
+* [Chat Dapp on Avalanche](./avax-chat-dapp/README.md) by [Nimish Agrawal](https://github.com/realnimish)
+* [Auction Manager](./drizzle-auction-manager/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
+* [Distributed File Manager](./distributed-file-manager/README.md) by [Raj Ranjan](https://github.com/rajranjan0608)
 
 A big congratulations to our winners!
 
