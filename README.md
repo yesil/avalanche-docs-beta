@@ -1,6 +1,10 @@
-# Website
+# Avalanche Docs
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
+## Overview
+This repro provides contents to the developer documentation site.
+
+## Project 
+This website is built using [Docusaurus 2](https://docusaurus.io/)
 
 ### Installation
 
@@ -23,3 +27,11 @@ $ yarn build
 ```
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
+
+### Contents
+
+* All the docs are located at [docs](docs/) directory.
+* The left side-bar of the page is controlled by [sidebars.js](sidebars.js).
+* Documentation of Docusaurus is located [here](https://docusaurus.io/docs).
+
+
