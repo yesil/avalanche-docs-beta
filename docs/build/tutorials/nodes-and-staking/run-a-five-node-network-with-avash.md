@@ -1,6 +1,6 @@
 # Run a Five Node Network with Avash
 
-[Avash](https://github.com/ava-labs/avalanche-docs/tree/5d8eee7598db8da63038af14437e5ed6dac39af7/build/tools/avash/README.md) is a development network for running a test or private Avalanche network on your local machine. You can configure and automate the local network to be in any state that you wish. This greatly accelerates local development work and testing.
+[Avash](../../tools/avash.md) is a development network for running a test or private Avalanche network on your local machine. You can configure and automate the local network to be in any state that you wish. This greatly accelerates local development work and testing.
 
 ## Dependencies
 
