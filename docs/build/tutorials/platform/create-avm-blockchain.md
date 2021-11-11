@@ -2,7 +2,7 @@
 
 ## Introduction
 
-One of the core features of Avalanche is the ability to create new blockchains. Avalanche supports the creation of new instances of the [Avalanche Virtual Machine \(AVM\)](../../../learn/platform-overview/#exchange-chain-x-chain). In this tutorial, we’ll create a blockchain by creating a new instance of the AVM.
+One of the core features of Avalanche is the ability to create new blockchains. Avalanche supports the creation of new instances of the [Avalanche Virtual Machine \(AVM\)](../../../learn/platform-overview/README.md#exchange-chain-x-chain). In this tutorial, we’ll create a blockchain by creating a new instance of the AVM.
 
 If you're interested in building custom blockchains, see [Create a Virtual Machine \(VM\)](create-a-virtual-machine-vm.md) and [Create a Custom Blockchain](create-a-virtual-machine-vm.md).
 
@@ -16,7 +16,7 @@ Next, you need to have your node be a validator on the [Primary Network](http://
 
 ## Create the Subnet
 
-Every blockchain is validated by a [subnet](../../../learn/platform-overview/#subnets). Before you can create a blockchain, you’ll need a subnet to validate it. You can also use a subnet that already exists if you have a sufficient number of its control keys.
+Every blockchain is validated by a [subnet](../../../learn/platform-overview/README.md#subnets). Before you can create a blockchain, you’ll need a subnet to validate it. You can also use a subnet that already exists if you have a sufficient number of its control keys.
 
 :::info
 [Create a Subnet](create-a-subnet.md)
@@ -278,7 +278,7 @@ More information can be found in the [Adding a Subnet Validator](../nodes-and-st
 
 ## Interacting with the New Blockchain <a id="interact-with-the-new-blockchain"></a>
 
-You can interact with this new instance of the AVM almost the same way you’d interact with the [X-Chain](../../../learn/platform-overview/#exchange-chain-x-chain). There are some small differences:
+You can interact with this new instance of the AVM almost the same way you’d interact with the [X-Chain](../../../learn/platform-overview/README.md#exchange-chain-x-chain). There are some small differences:
 
 * The API endpoint of your blockchain is `127.0.0.1:9650/ext/bc/xAd5n5PQFV6RRo8UgH54Gf5tJs8oQdctQS2ygp5F2dKZDckYH`. The last part in the endpoint is the blockchain ID. This can be a different ID when you create your blockchain. You can also alias this chain ID with `myxchain` for simpler API URLs. More information:
 

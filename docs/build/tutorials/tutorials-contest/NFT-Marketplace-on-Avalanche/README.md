@@ -665,7 +665,7 @@ main()
   });
 ```
 
-After you are done editing [`deploy.js`](deploy.NFT-Marketplace-dApp/scripts/deploy.js), execute the following lines on your terminal to run the [`deploy.js`](deploy.NFT-Marketplace-dApp/scripts/deploy.js) script.
+After you are done editing [`deploy.js`](NFT-Marketplace-dApp/scripts/deploy.js), execute the following lines on your terminal to run the [`deploy.js`](NFT-Marketplace-dApp/scripts/deploy.js) script.
 
 ```shell
 $ npx hardhat compile  # Compiles the contracts
@@ -690,7 +690,7 @@ npm install --save ethers # install ethers package
 npm run start # start the react app
 ```
 
-Add bootstrap CDN in the head section of [`public/index.html`](NFT-Marketplace-dApp/frontend/public/index.html) file. We will use bootstrap to speed up.
+Add bootstrap CDN in the head section of [`public/index.html`](./NFT-Marketplace-dApp/frontend/public/index-html.md) file. We will use bootstrap to speed up.
 
 ```diff
 <head>
@@ -877,7 +877,7 @@ mv artifacts/contracts/NFT.sol/NFT.json frontend/src/artifacts/NFT.json # Moves 
 mv artifacts/contracts/AuctionManager.sol/AuctionManager.json frontend/src/artifacts/AuctionManager.json # Moves AuctionManager.json to the newly created folder.
 ```
 
-Import them in the React code at the top of [App.js](App.NFT-Marketplace-dApp/frontend/src/App.js).
+Import them in the React code at the top of [App.js](NFT-Marketplace-dApp/frontend/src/App.js).
 
 ```js
 import AuctionArtifact from "./artifacts/Auction.json";

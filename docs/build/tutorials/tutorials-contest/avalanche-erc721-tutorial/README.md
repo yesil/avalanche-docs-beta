@@ -136,7 +136,7 @@ As well as a **tsconfig.migrate.json** again under the root folder of our projec
 }
 ```
 
-This file simply extends our base **tsconfig.json** by taking the [**migrations/**](./migrations) contents into account. We will go through migrating in more detail after we have finished implementing and testing our contracts.
+This file simply extends our base **tsconfig.json** by taking the folder **migrations/** contents into account. We will go through migrating in more detail after we have finished implementing and testing our contracts.
 
 5. Add `generate` script in your **package.json**: 
 
@@ -150,7 +150,7 @@ Whenever you make changes to your smart contract you would need to run `npm run 
 
 ### Writing our first ERC721 contract
 
-1. Inside the [**contracts/**](./contracts) folder of your Truffle project we will create a new [**Collectible.sol**](./contracts/Collectible.sol) file and implement the functions we need. Now that we have this, let us start from the top and explain what the smart contract does.
+1. Inside the **contracts/** folder of your Truffle project we will create a new [**Collectible.sol**](./contracts/Collectible.sol) file and implement the functions we need. Now that we have this, let us start from the top and explain what the smart contract does.
 
 2. [**Collectible.sol**](./contracts/Collectible.sol) logic
 
@@ -245,7 +245,7 @@ This will do the minting for us and associate the item id (token id) with the me
 
 ### Creating our NFT Marketplace.sol contract
 
-1. Inside the [**contracts/**](./contracts) we create a new [**Marketplace.sol**](./contracts/Marketplace.sol) file again with the necessary functionality.
+1. Inside the **contracts/** folder, we create a new [**Marketplace.sol**](./contracts/Marketplace.sol) file again with the necessary functionality.
 This might look slighly more complicated but once again, I will go through each line of code, so that at the end you can make sense of the logic entirely.
 
 2. [**Marketplace.sol**](./contracts/Marketplace.sol) logic
@@ -396,7 +396,7 @@ Afterwards we transfer the NFT from the Marketplace smart contract to the buyer 
 
 ### Testing our smart contracts
 
-Now that we have finished writing our smart contracts it is very important that we test them thoroughly for erroneous behaviour. As we know, once deployed on the blockchain, they are immutable. We will be using [Mocha.js](https://mochajs.org/) for testing our contracts. It is integrated into the Truffle framework, so we do not need to install it. We do, however, need [Open Zeppelin's Test Helpers](https://docs.openzeppelin.com/test-helpers/0.5/), so we will import these in our tests. With that in mind, let us quickly jump into the [**test/**](./test) directory of our project root and inside of it create two files, namely:
+Now that we have finished writing our smart contracts it is very important that we test them thoroughly for erroneous behaviour. As we know, once deployed on the blockchain, they are immutable. We will be using [Mocha.js](https://mochajs.org/) for testing our contracts. It is integrated into the Truffle framework, so we do not need to install it. We do, however, need [Open Zeppelin's Test Helpers](https://docs.openzeppelin.com/test-helpers/0.5/), so we will import these in our tests. With that in mind, let us quickly jump into the **test/** directory of our project root and inside of it create two files, namely:
 
 - [**collectible.test.ts**](./test/collectible.test.ts)
 - [**marketplace.test.ts**](./test/marketplace.test.ts)
@@ -565,7 +565,7 @@ import { expectRevert, BN } from '@openzeppelin/test-helpers'
 import { convertTokensToWei } from '../utils/tokens'
 ```
 
-We use the **toBN()** function to convert the balances of the addresses, which are returned as strings, to Big Numbers, so that we can perform an adding. We also import a function **convertTokenToWei** from a [**utils/**](./utils) folder of our project's root which we do not have yet, so let us create it and inside of it create a [**tokens.ts**](./utils/tokens.ts) file.
+We use the **toBN()** function to convert the balances of the addresses, which are returned as strings, to Big Numbers, so that we can perform an adding. We also import a function **convertTokenToWei** from a **utils/** folder of our project's root which we do not have yet, so let us create it and inside of it create a [**tokens.ts**](./utils/tokens.ts) file.
 Then copy the code below in there:
 
 ```typescript
@@ -644,7 +644,7 @@ truffle run coverage
 
 ### Deploying our smart contracts
 
-1. Now that our contracts have passed the tests, let us have a look at the [**migrations/**](./migrations) folder which Truffle provided us in the beginning. Inside of it we have the [**1_initial_migration.ts**](./migrations/1_initial_migration.ts) script which is used to deploy the [**Migrations.sol**](./contracts/Migrations.sol) contract that is available in the [**contracts/**](./contracts) folder. This contract simply keeps track of the migrations that we do. In order to migrate our own contracts, we create another script called [**2_deploy_contracts.ts**](./migrations/2_deploy_contracts.ts) and inside of it paste the following lines of code:
+1. Now that our contracts have passed the tests, let us have a look at the sub-dir **migrations/** folder which Truffle provided us in the beginning. Inside of it we have the [**1_initial_migration.ts**](./migrations/1_initial_migration.ts) script which is used to deploy the [**Migrations.sol**](./contracts/Migrations.sol) contract that is available in the **contracts/** folder. This contract simply keeps track of the migrations that we do. In order to migrate our own contracts, we create another script called [**2_deploy_contracts.ts**](./migrations/2_deploy_contracts.ts) and inside of it paste the following lines of code:
 
 ```typescript
 const Collectible = artifacts.require('Collectible')

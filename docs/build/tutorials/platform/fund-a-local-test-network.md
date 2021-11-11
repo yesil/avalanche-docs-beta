@@ -4,7 +4,7 @@
 
 In [Create a Local Test Network](create-a-local-test-network.md), we showed you how to launch a 5 node local test network. Once you have a local network the next step is to fund an address so that you can begin creating transactions and interacting with smart-contracts.
 
-We'll show you how to leverage a pre-funded private key to access funds on the X-Chain, C-Chain and P-Chain. **NOTE** this same private key, `PrivateKey-ewoqjP7PxY4yr3iLTpLisriqt94hdyDFNgchSxGGztUrTXtNN`, can be used to sign txs locally using [AvalancheJS](../../tools/avalanchejs/). You don't need to import the key into the local keystore in order to access those funds. They are in the genesis vertex and block for each respective chain.
+We'll show you how to leverage a pre-funded private key to access funds on the X-Chain, C-Chain and P-Chain. **NOTE** this same private key, `PrivateKey-ewoqjP7PxY4yr3iLTpLisriqt94hdyDFNgchSxGGztUrTXtNN`, can be used to sign txs locally using [AvalancheJS](../../tools/avalanchejs/README.md). You don't need to import the key into the local keystore in order to access those funds. They are in the genesis vertex and block for each respective chain.
 
 ## Create a User
 

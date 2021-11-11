@@ -8,7 +8,7 @@ We at [red·dev](https://www.red.dev) needed to do learn how to do this for our 
 
 You, however, can follow this same methodology to gather any real-world information that your dApp needs, by following this tutorial and just designing your Chainlink adapter to gather different information.
 
-In this tutorial, we describe each step of setting up the environment by hand.  However, to make your life easier after you learn how it works, we have included a set of Ansible scripts to complete this process automatically. (For more information on the devops tool **Ansible**, see the **Resources** section at the end of this tutorial.) Ansible creates a development server using a Vultr.com vps, and you can find the entire project [here](ansible-chainlink-avalanche-setup). 
+In this tutorial, we describe each step of setting up the environment by hand.  However, to make your life easier after you learn how it works, we have included a set of Ansible scripts to complete this process automatically. (For more information on the devops tool **Ansible**, see the **Resources** section at the end of this tutorial.) Ansible creates a development server using a Vultr.com vps, and you can find the entire project [here](ansible-chainlink-avalanche-setup/README.md). 
 ## Audience
 To get the most out of this tutorial, you will need to have a basic understanding of Docker, Chainlink, Javascript, Node, Solidity, and how to write dApps. If you do not yet know about these topics, see the [**Resources**](#resources) section at the end for links to learn more.
 

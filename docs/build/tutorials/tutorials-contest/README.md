@@ -23,7 +23,7 @@ Here you can see the entries of the Avalanche Developer Contest Winners:
 
 ## NFTs
 
-* [NFT Marketplace](https://github.com/ava-labs/avalanche-docs/tree/5f57b7f6d48b6382bed67eba23332c9e5c48e557/build/tutorials/tutorials-contest/NFT-Marketplace-on-Avalanche/README.md) by [Berkay Saglam](https://github.com/trizin)
+* [NFT Marketplace](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/NFT-Marketplace-on-Avalanche/README.md) by [Berkay Saglam](https://github.com/trizin)
 * [NFT tutorial](https://github.com/ava-labs/avax-docs/tree/main/docs/build/tutorials/tutorials-contest/avalanche-erc721-tutorial/README.md) by [Metodi Manov](https://github.com/metodi96)
 
 ## Tokenization
