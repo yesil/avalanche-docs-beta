@@ -365,7 +365,7 @@ Check Prometheus web interface on `http://your-node-host-ip:9090/targets`. You s
 
 Make sure that all of them have `State` as `UP`.
 
-Open Grafana; you can now create a dashboard using any of those sources. You can also use [the preconfigured dashboards](https://github.com/ava-labs/avalanche-docs/tree/master/dashboards).
+Open Grafana; you can now create a dashboard using any of those sources. You can also use [the preconfigured dashboards](../../tools/dashboards/README.mdx).
 
 To import the preconfigured dashboard:
 
