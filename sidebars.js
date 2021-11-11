@@ -191,6 +191,7 @@ const sidebars = {
                 },
               ],
             },
+            'build/tools/dashboards/README',
             'build/tools/avash',
             'build/tools/public-api',
             'build/tools/ortelius',
