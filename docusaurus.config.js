@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Avalanche Docs',
-  tagline: 'Documentation and guides for Avalanche',
+  tagline: 'Documentation and tutorials for Avalanche',
   url: 'https://docs-beta.avax.network',
   baseUrl: '/',
   onBrokenLinks: 'throw',
