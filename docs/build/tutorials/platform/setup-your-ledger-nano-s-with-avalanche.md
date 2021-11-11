@@ -6,7 +6,7 @@ If you want to use the Avalanche address you created earlier, you need to use th
 
 The Avalanche Ledger wallet app is available via [Ledger Live](https://www.ledger.com/ledger-live).
 
-## How to Set Up Avalanche on Ledger Live <a id="1c80"></a>
+## How to Set Up Avalanche on Ledger Live {#1c80}
 
 First, you’ll need to install [Ledger Live](https://www.ledger.com/ledger-live). There’s a download for MacOS, Windows and Linux as well as iOS and Android.
 
@@ -22,7 +22,7 @@ You can confirm the installation was successful by going to the "Apps installed"
 
 ![Avalanche Ledger app install button](/img/ledger-07-live-version.png)
 
-## Use the Avalanche Wallet with Ledger <a id="48a3"></a>
+## Use the Avalanche Wallet with Ledger {#48a3}
 
 Once you have the Avalanche app installed then you’re able to interact with the [Avalanche Wallet](https://wallet.avax.network/) via the Ledger. This includes sending AVAX, tokens, NFTs, cross-chain swaps as well as staking or delegating.
 
@@ -74,7 +74,7 @@ Finally, you should be able to see the transaction details in our explorer. This
 
 ![Transaction details](/img/transaction-details.png)
 
-## More Tools to Come <a id="135b"></a>
+## More Tools to Come {#135b}
 
 Ava Labs is building the Internet of Finance. We’re developing solutions to create a frictionless world by redefining the way people build and use finance applications. A critical part of this infrastructure is a hardware wallet so users can be totally confident that their private keys and coins are completely isolated from any potentially malicious actors. Our newly released Ledger app does just this by following industry best practices to keep users and coins safe and secure.
 

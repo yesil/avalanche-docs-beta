@@ -38,7 +38,7 @@ The password needed to create/revoke authorization tokens. If `--api-auth-requir
 
 If set to `true`, this node will expose the Health API. Defaults to `true`. See [here](../avalanchego-apis/health-api.md) for more information.
 
-`--index-enabled` \(boolean\): <a id="index-enabled"></a>
+`--index-enabled` \(boolean\): {#index-enabled}
 
 If `false`, this node will not enable the indexer and the Index API will not be available. Defaults to `false`. See [here](../avalanchego-apis/index-api.md) for more information.
 
@@ -852,7 +852,7 @@ Subnet configs supports loading new consensus parameters. JSON keys are differen
 
 The consensus parameters of a subnet default to the same values used for the Primary Network, which are given [here](command-line-interface.md#snow-parameters).
 
-### Virtual Machine \(VM\) Configs <a id="vm-configs"></a>
+### Virtual Machine \(VM\) Configs {#vm-configs}
 
 `--vm-aliases-file` \(string\):
 

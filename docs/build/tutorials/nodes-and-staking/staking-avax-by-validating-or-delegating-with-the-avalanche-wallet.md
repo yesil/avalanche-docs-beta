@@ -1,6 +1,6 @@
 # Stake AVAX, by Validating or Delegating, with the Avalanche Wallet
 
-## **Introduction** <a id="001f"></a>
+## **Introduction** {#001f}
 
 The Avalanche Wallet is a web-based application with no middleware or any kind of server communication. The Avalanche Wallet is written in Vue JS and can be either accessed online or compiled and run locally.
 
@@ -9,13 +9,13 @@ The Avalanche Wallet source code can be found [here](https://github.com/ava-labs
 
 **Let’s get staking!**
 
-### **Step 1 — Open the Avalanche Wallet** <a id="552d"></a>
+### **Step 1 — Open the Avalanche Wallet** {#552d}
 
 ![Image for post](https://miro.medium.com/max/1552/0*tpBIOjLdppuNKMjA)
 
 You can access your wallet using your key phrase, keystore file, or Ledger Nano S \(coming soon!\)
 
-### **Step 2 — Navigate to "Earn" section** <a id="dc5a"></a>
+### **Step 2 — Navigate to "Earn" section** {#dc5a}
 
 ![Image for post](https://miro.medium.com/max/1504/0*XTh3nZzBI1bkLbwO)
 
@@ -33,7 +33,7 @@ Voila!
 
 Now, we have our funds ready for staking on the P-Chain. Next, you can add a validator or a delegator to your wallet.
 
-### **Step 3A: Become a validator!** <a id="60f0"></a>
+### **Step 3A: Become a validator!** {#60f0}
 
 To add a validator, we need to have a node running. We can set one up using the released [binaries](https://github.com/ava-labs/avalanchego/releases/) or build them from the [AvalancheGo source code](https://github.com/ava-labs/avalanchego).
 
@@ -69,7 +69,7 @@ Carefully check the details, and click "Confirm" again!
 
 Congratulations. You are now validating the Avalanche Primary Network!
 
-### **Step 3B: Add a Delegator!** <a id="59bd"></a>
+### **Step 3B: Add a Delegator!** {#59bd}
 
 ![Image for post](https://miro.medium.com/max/1600/0*f-wXi2SiSm4eBmHt)
 

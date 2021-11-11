@@ -31,7 +31,7 @@ The subnet needs validators in it to, well, validate blockchains.
 :::
 
 
-## Create the Genesis Data <a id="create-the-genesis-data"></a>
+## Create the Genesis Data {#create-the-genesis-data}
 
 Each blockchain has some genesis state when it’s created. Each VM defines the format and semantics of its genesis data. The AVM and Coreth have a static API method named `buildGenesis` that takes in a JSON representation of a blockchain’s genesis state and returns the byte representation of that state.
 
@@ -195,7 +195,7 @@ The response contains the transaction ID:
 }
 ```
 
-### Verify Success <a id="verify-success"></a>
+### Verify Success {#verify-success}
 
 After a few seconds, the transaction to create our blockchain should have been accepted and the blockchain should exist \(assuming the request was well-formed, etc.\)
 
@@ -247,7 +247,7 @@ The response confirms that the blockchain was created:
 }
 ```
 
-### Validating the Blockchain <a id="validating-blockchain"></a>
+### Validating the Blockchain {#validating-blockchain}
 
 Every blockchain needs a set of validators to validate and process transactions on it. You can check if a node is validating a given blockchain by calling [`platform.getBlockchainStatus`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getblockchainstatus) on that node:
 
@@ -276,7 +276,7 @@ If it responds `"Validating"`, the node is validating the given chain. If it res
 
 More information can be found in the [Adding a Subnet Validator](../nodes-and-staking/add-a-validator.md#adding-a-subnet-validator) tutorial.
 
-## Interacting with the New Blockchain <a id="interact-with-the-new-blockchain"></a>
+## Interacting with the New Blockchain {#interact-with-the-new-blockchain}
 
 You can interact with this new instance of the AVM almost the same way you’d interact with the [X-Chain](../../../learn/platform-overview/README.md#exchange-chain-x-chain). There are some small differences:
 

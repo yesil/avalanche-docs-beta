@@ -5,7 +5,7 @@ sidebar_position: 2
 
 This guide explains how to make calls to APIs exposed by Avalanche nodes.
 
-### Endpoint <a id="endpoint"></a>
+### Endpoint {#endpoint}
 
 An API call is made to an endpoint, which is a URL. The base of the URL is always:
 

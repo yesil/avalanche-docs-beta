@@ -10,7 +10,7 @@ In this tutorial, we’ll create a new subnet with 2 control keys and a threshol
 
 _Note: IDs of Blockchains, Subnets, Transactions and Addresses can be different for each run/network. It means that some inputs, endpoints etc. in the tutorial can be different when you try._
 
-### Generate the Control Keys <a id="generate-the-control-keys"></a>
+### Generate the Control Keys {#generate-the-control-keys}
 
 First, let’s generate the 2 control keys. To do so we call [`platform.createAddress`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createaddress) This generates a new private key and stores it for a user.
 
@@ -66,7 +66,7 @@ The response contains the second control key, which is held by the user we just 
 }
 ```
 
-### Create the Subnet <a id="create-the-subnet"></a>
+### Create the Subnet {#create-the-subnet}
 
 To create a subnet, we call [`platform.createSubnet`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-createsubnet).
 
@@ -100,7 +100,7 @@ The response gives us the transaction’s ID, which is also the ID of the newly 
 }
 ```
 
-### Verifying Success <a id="verifying-success"></a>
+### Verifying Success {#verifying-success}
 
 We can call [`platform.getSubnets`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getsubnets) to get all Subnets that exist:
 
@@ -134,7 +134,7 @@ The response confirms that our subnet was created:
 }' -H 'content-type:application/json;' 127.0.0.1:9650/ext/P
 ```
 
-### Adding Subnet Validators  <a id="adding-subnet-validators"></a>
+### Adding Subnet Validators  {#adding-subnet-validators}
 
 ### Issuing a Subnet Validator Transaction
 

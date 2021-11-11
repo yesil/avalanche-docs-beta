@@ -40,7 +40,7 @@ The subnet needs validators in it to, well, validate blockchains.
 :::
 
 
-### Create the Genesis Data <a id="create-the-genesis-data"></a>
+### Create the Genesis Data {#create-the-genesis-data}
 
 Each blockchain has some genesis state when it’s created. Each VM defines the format and semantics of its genesis data. TimestampVM uses CB58 encoded data as genesis data. There is `encode` and `decode` static API methods that can be used to encode/decode string data. See [TimestampVM API](create-a-virtual-machine-vm.md#api).
 
@@ -105,7 +105,7 @@ The response contains the transaction ID:
 }
 ```
 
-### Verify Success <a id="verify-success"></a>
+### Verify Success {#verify-success}
 
 After a few seconds, the transaction to create our blockchain should have been accepted and the blockchain should exist \(assuming the request was well-formed, etc.\)
 
@@ -157,7 +157,7 @@ The response confirms that the blockchain was created:
 }
 ```
 
-### Validating the Blockchain <a id="validating-blockchain"></a>
+### Validating the Blockchain {#validating-blockchain}
 
 Every blockchain needs a set of validators to validate and process transactions on it. You can check if a node is validating a given blockchain by calling [`platform.getBlockchainStatus`](../../avalanchego-apis/platform-chain-p-chain-api.md#platform-getblockchainstatus) on that node:
 
@@ -186,7 +186,7 @@ If it responds `"Validating"`, the node is validating the given chain. If it res
 
 More information can be found in the [Adding a Subnet Validator](../nodes-and-staking/add-a-validator.md#adding-a-subnet-validator) tutorial.
 
-## Interacting with the New Blockchain <a id="interact-with-the-new-blockchain"></a>
+## Interacting with the New Blockchain {#interact-with-the-new-blockchain}
 
 You can interact with this new instance of the VM. The API endpoint of the blockchain is `127.0.0.1:9650/ext/bc/sw813hGSWH8pdU9uzaYy9fCtYFfY7AjDd2c9rm64SbApnvjmk`. The last part in the endpoint is the blockchain ID, which is `sw813hGSWH8pdU9uzaYy9fCtYFfY7AjDd2c9rm64SbApnvjmk`. Every blockchain ID is different from each other, so this is not a static ID. Your blockchain ID and the endpoint can be different.
 

@@ -4,14 +4,14 @@ Avash is a temporary shell execution environment used to deploy and test on Aval
 
 Avash provides the ability to run Lua scripts, which can execute a sequence of shell commands in Avash. This allows for automation of tasks. For instance, one could create a Lua script to deploy a network of Avalanche nodes where each node has some given configuration. This makes testing easier.
 
-## Installation <a id="installation"></a>
+## Installation {#installation}
 
-### Requirements <a id="requirements"></a>
+### Requirements {#requirements}
 
 * Golang 1.16.8 or later
 * AvalancheGo
 
-### Quick Setup <a id="quick-setup"></a>
+### Quick Setup {#quick-setup}
 
 To download and build Avash:
 
@@ -30,7 +30,7 @@ RunScript: Running scripts/five_node_staking.lua
 RunScript: Successfully ran scripts/five_node_staking.lua:
 ```
 
-## Configuration <a id="configuration"></a>
+## Configuration {#configuration}
 
 While Avash can be started without a premade configuration file, it’s available as an option for tweaking some of the shell’s global settings. Avash will search for `.avash.yaml` in the `$HOME` directory by default, but the `--config` flag can be used to set a custom configuration filepath to look for.
 
@@ -51,7 +51,7 @@ The field arguments are described as follows:
 * `<directory>` - A full path to a directory. Example: `/home/username/folder`
 * `<log-level>` - A valid log level to filter logged messages. Must be one of: `{verbo, debug, info, warn, error, fatal, off}`
 
-### Fields <a id="fields"></a>
+### Fields {#fields}
 
 **avalancheLocation**
 
@@ -113,9 +113,9 @@ Default:
   <datadir>/logs
 ```
 
-## Using Avash <a id="using-avash"></a>
+## Using Avash {#using-avash}
 
-### Opening a shell <a id="opening-a-shell"></a>
+### Opening a shell {#opening-a-shell}
 
 Start a new instance of Avash with `./avash`.
 
@@ -130,7 +130,7 @@ help procmanager
 help procmanager start
 ```
 
-### Commands <a id="commands"></a>
+### Commands {#commands}
 
 Avash comes with the following root commands:
 
@@ -303,7 +303,7 @@ Available Commands:
   vardump     Writes the variable to a file.
 ```
 
-## Writing Scripts <a id="writing-scripts"></a>
+## Writing Scripts {#writing-scripts}
 
 Avash uses [gopher-lua](https://github.com/yuin/gopher-lua) to run Lua scripts. Scripts can use hooks to allow the user to write code that invokes the current Avash environment.
 

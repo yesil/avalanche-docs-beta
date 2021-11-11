@@ -1386,7 +1386,7 @@ A UTXO contains a `CodecID`, `TxID`, `UTXOIndex`, and `Output`.
 * **`AssetID`** is a 32-byte array that defines which asset this utxo references.
 * **`Output`** is the output object that created this utxo. The serialization of Outputs was defined above.
 
-#### Gantt UTXO Specification <a id="gantt-utxo-specification"></a>
+#### Gantt UTXO Specification {#gantt-utxo-specification}
 
 ```text
 +--------------+----------+-------------------------+

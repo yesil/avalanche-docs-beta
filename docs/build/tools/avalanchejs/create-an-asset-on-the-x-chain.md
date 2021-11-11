@@ -145,7 +145,7 @@ const txid: string = await xchain.issueTx(tx)
 console.log(`Success! TXID: ${txid}`)
 ```
 
-## Get the status of the transaction <a id="get-the-status-of-the-transaction"></a>
+## Get the status of the transaction {#get-the-status-of-the-transaction}
 
 Now that we sent the transaction to the network, it takes a few seconds to determine if the transaction has gone through. We can get an updated status on the transaction using the TxID through the AVM API.
 
@@ -161,7 +161,7 @@ The statuses can be one of "Accepted", "Processing", "Unknown", and "Rejected":
 * "Unknown" indicates that node knows nothing about the transaction, indicating the node doesn’t have it
 * "Rejected" indicates the node knows about the transaction, but it conflicted with an accepted transaction
 
-## Identifying the newly created asset <a id="identifying-the-newly-created-asset"></a>
+## Identifying the newly created asset {#identifying-the-newly-created-asset}
 
 The X-Chain uses the TxID of the transaction which created the asset as the unique identifier for the asset. This unique identifier is henceforth known as the "AssetID" of the asset. When assets are traded around the X-Chain, they always reference the AssetID that they represent.
 
