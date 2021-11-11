@@ -16,6 +16,8 @@ const config = {
   organizationName: 'ava-labs', // Usually your GitHub org/user name.
   projectName: 'avax-docs', // Usually your repo name.
 
+  plugins: [require.resolve('docusaurus-lunr-search')],
+  
   scripts: [
     // String format.
     'https://widget.intercom.io/widget/aegcj3j9',
