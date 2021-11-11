@@ -6,7 +6,7 @@
 # Avalanche Docs
 
 ## Overview
-This repo contains the contents for our developer documentation deployed [here](https://docs-beta.avax.network).
+This repo contains the contents for our docs deployed [here](https://docs-beta.avax.network).
 
 The website is built using [Docusaurus 2](https://docusaurus.io/).
 
@@ -16,7 +16,7 @@ Contributing to the docs site is a great way to get involved with the Avalanche 
 ### Contents
 * All the docs are located in the [docs](docs) directory.
 * The left side-bar of the page is controlled by [sidebars.js](sidebars.js).
-* Extensive Documentation for Docusaurus can be found [here](https://docusaurus.io/docs).
+* Extensive docs for Docusaurus can be found [here](https://docusaurus.io/docs).
 
 ### Installation
 

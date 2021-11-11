@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'Developer Documentation - Avalanche',
-  tagline: 'Avalanche Developer Documentation',
-  url: 'https://docs.avax.network',
+  title: 'Avalanche Docs',
+  tagline: 'Documentation and guides for Avalanche',
+  url: 'https://docs-beta.avax.network',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -45,7 +45,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Developer Documentation',
+        title: 'Avalanche Docs',
         logo: {
           alt: 'Avalanche Logo',
           src: 'img/logo.svg',
