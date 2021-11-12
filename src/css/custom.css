@@ -31,3 +31,6 @@ html[data-theme='dark'] .docusaurus-highlight-code-line {
   padding-left: 8px;
 }
 
+.theme-doc-sidebar-menu {
+  font-size: 14px;
+}
