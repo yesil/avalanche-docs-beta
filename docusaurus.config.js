@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Avalanche Docs',
   tagline: 'Documentation and Tutorials for Avalanche',
-  url: 'https://docs-beta.avax.network',
+  url: 'https://docs.avax.network',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
