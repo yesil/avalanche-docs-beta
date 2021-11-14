@@ -19,8 +19,11 @@ const config = {
   plugins: [require.resolve('docusaurus-lunr-search')],
 
   scripts: [
-    // String format.
-    'https://widget.intercom.io/widget/aegcj3j9',
+    {
+      src: 'https://widget.intercom.io/widget/aegcj3j9',
+      async: true,
+    },
+
   ],
 
   presets: [
