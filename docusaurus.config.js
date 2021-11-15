@@ -19,11 +19,8 @@ const config = {
   plugins: [require.resolve('docusaurus-lunr-search')],
 
   scripts: [
-    {
-      src: 'https://widget.intercom.io/widget/aegcj3j9',
-      async: true,
-    },
-
+    'scripts/intercom-app.js',
+    'scripts/intercom-scripts.js'
   ],
 
   presets: [
