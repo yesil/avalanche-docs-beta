@@ -45,7 +45,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'AVALANCHE',
+        title: 'Avalanche Docs',
         logo: {
           alt: 'Avalanche Logo',
           src: 'img/logo.svg',
