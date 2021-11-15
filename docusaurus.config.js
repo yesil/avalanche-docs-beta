@@ -45,10 +45,10 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Avalanche Docs',
+        title: '',
         logo: {
           alt: 'Avalanche Logo',
-          src: 'img/logo.svg',
+          src: 'img/Avalanche_Horizontal_Red.svg',
         },
         items: [
         ],
