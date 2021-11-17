@@ -16,8 +16,6 @@ const config = {
   organizationName: 'ava-labs', // Usually your GitHub org/user name.
   projectName: 'avalanche-docs-beta', // Usually your repo name.
 
-  plugins: [require.resolve('docusaurus-lunr-search')],
-
   scripts: [
     'scripts/intercom-app.js',
     'scripts/intercom-scripts.js'
