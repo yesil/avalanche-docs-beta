@@ -442,7 +442,7 @@ curl -X POST --data '{
 
 ### platform.exportAVAX
 
-Send AVAX from an address on the P-Chain to an address on the X-Chain. After issuing this transaction, you must call the X-Chain’s [`avm.importAVAX`](exchange-chain-x-chain-api.mdx#avm-importavax) method to complete the transfer.
+Send AVAX from an address on the P-Chain to an address on the X-Chain. After issuing this transaction, you must call the X-Chain’s [`avm.import`](exchange-chain-x-chain-api.mdx#avm-import) method with assetID `AVAX` to complete the transfer.
 
 #### **Signature**
 
@@ -1639,7 +1639,7 @@ curl -X POST --data '{
 
 Complete a transfer of AVAX from the X-Chain to the P-Chain.
 
-Before this method is called, you must call the X-Chain’s [`avm.exportAVAX`](exchange-chain-x-chain-api.mdx#avm-exportavax) method to initiate the transfer.
+Before this method is called, you must call the X-Chain’s [`avm.export`](exchange-chain-x-chain-api.mdx#avm-export) method with assetID `AVAX` to initiate the transfer.
 
 #### **Signature**
 
@@ -1649,7 +1649,6 @@ platform.importAVAX(
         from: []string, //optional
         to: string,
         changeAddr: string, //optional
-        sourceChain: string,
         username: string,
         password: string
     }
@@ -1660,11 +1659,10 @@ platform.importAVAX(
 }
 ```
 
-* `to` is the ID of the address the AVAX is imported to. This must be the same as the `to` argument in the corresponding call to the X-Chain’s `exportAVAX`.
-* `sourceChain` is the ID or alias of the chain the AVAX is being imported from. To import funds from the X-Chain, use `"X"`.
+* `to` is the ID of the address the AVAX is imported to. This must be the same as the `to` argument in the corresponding call to the X-Chain’s `export`.
 * `from` are the addresses that you want to use for this operation. If omitted, uses any of your addresses as needed.
 * `changeAddr` is the address any change will be sent to. If omitted, change is sent to one of the addresses controlled by the user.
-* `username` is the user that controls the address specified in `to`.
+* `username` is the user that controls from and change addresses.
 * `password` is `username`‘s password.
 
 #### **Example Call**
@@ -1674,7 +1672,6 @@ curl -X POST --data '{
     "jsonrpc": "2.0",
     "method": "platform.importAVAX",
     "params": {
-        "sourceChain": "X",
         "to": "P-avax1apzq2zt0uaaatum3wdz83u4z7dv4st7l5m5n2a",
         "from": ["P-avax1gss39m5sx6jn7wlyzeqzm086yfq2l02xkvmecy"],
         "changeAddr": "P-avax103y30cxeulkjfe3kwfnpt432ylmnxux8r73r8u",
