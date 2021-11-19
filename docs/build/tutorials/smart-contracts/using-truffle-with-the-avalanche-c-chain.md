@@ -229,7 +229,7 @@ Notice that `accounts[0]` \(default account\) has some balance, while `accounts[
 
 ### Scripting account funding
 
-There is a convenient script that funds the `accounts` list . You can find it [here](../../../scripts/fund-cchain-addresses.js). You can also download it using this command:
+There is a convenient script that funds the `accounts` list . You can find it [here](https://raw.githubusercontent.com/ava-labs/avalanche-docs/master/scripts/fund-cchain-addresses.js). You can also download it using this command:
 
 ```text
 wget -nd -m https://raw.githubusercontent.com/ava-labs/avalanche-docs/master/scripts/fund-cchain-addresses.js;
