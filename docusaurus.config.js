@@ -19,8 +19,8 @@ const config = {
   plugins: [require.resolve('docusaurus-lunr-search')],
 
   scripts: [
-    // String format.
-    'https://widget.intercom.io/widget/aegcj3j9',
+    'scripts/intercom-app.js',
+    'scripts/intercom-scripts.js'
   ],
 
   presets: [
@@ -45,17 +45,12 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'Avalanche Docs',
+        title: '',
         logo: {
           alt: 'Avalanche Logo',
-          src: 'img/logo.svg',
+          src: 'img/Avalanche_Horizontal_Red.svg',
         },
         items: [
-          {
-            href: 'https://github.com/ava-labs/avalanche-docs',
-            label: 'GitHub',
-            position: 'right',
-          },
         ],
       },
       footer: {
@@ -75,6 +70,10 @@ const config = {
               {
                 label: 'Telegram',
                 href: 'https://t.me/avalancheavax',
+              },
+              {
+                label: 'Medium',
+                href: 'https://medium.com/avalancheavax',
               }
             ],
           },
@@ -82,19 +81,22 @@ const config = {
             title: 'More',
             items: [
               {
+                label: 'YouTube',
+                href: 'https://youtube.com/avalancheavax',
+              },
+              {
                 label: 'Ecosystem',
                 href: 'https://ecosystem.avax.network',
               },
               {
-                label: 'Medium',
-                href: 'https://medium.com/avalancheavax',
-              },
-              {
-                label: 'YouTube',
-                href: 'https://youtube.com/avalancheavax',
-              },
+                label: 'GitHub',
+                href: 'https://github.com/ava-labs/avalanche-docs-beta',
+              }
             ],
           },
+          {
+            
+          }
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Ava Labs, Inc.`,
       },

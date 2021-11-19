@@ -33,7 +33,7 @@ const sidebars = {
         'learn/getting-started', 
         {
           type: 'category',
-          label: 'Platforms',
+          label: 'Platform',
           items: [
             'learn/platform-overview/README', 
             'learn/platform-overview/avalanche-consensus', 

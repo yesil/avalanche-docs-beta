@@ -141,16 +141,16 @@ Now we have everything we need to transfer the tokens.
 
 ### Transfer from the X-Chain to C-Chain
 
-Use the address corresponding to the private key you exported and switch to using the C- prefix in the [`avm.exportAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm-exportavax) call:
+Use the address corresponding to the private key you exported and switch to using the C- prefix in the [`avm.export`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm-export) call:
 
 ```cpp
 curl -X POST --data '{  
     "jsonrpc":"2.0",    
     "id"     :1,    
-    "method" :"avm.exportAVAX", 
+    "method" :"avm.export",
     "params" :{ 
-        "to":"C-avax1jggdngzc9l87rgurmfu0z0n0v4mxlqta0h3k6e",   
-        "destinationChain": "C",    
+        "assetID": "AVAX",
+        "to": "C-avax1wkmfja9ve3lt3n9ye4qp3l3gj9k2mz7ep45j7q"
         "amount": 5000000,  
         "username":"myUsername",    
         "password":"myPassword" 
@@ -164,7 +164,7 @@ Since your keystore user owns the corresponding private key on the C-Chain, you 
 curl -X POST --data '{
     "jsonrpc":"2.0",
     "id"     :1,    
-    "method" :"avax.importAVAX",    
+    "method" :"avax.import",
     "params" :{ 
         "to":"0x4b879aff6b3d24352Ac1985c1F45BA4c3493A398",  
         "sourceChain":"X",  
@@ -203,6 +203,7 @@ curl -X POST --data '{
     "method" :"avax.exportAVAX",
     "params" :{ 
         "to":"X-avax1wkmfja9ve3lt3n9ye4qp3l3gj9k2mz7ep45j7q",   
+        "assetID": "AVAX",
         "amount": 5000000,  
         "username":"myUsername",    
         "password":"myPassword" 
@@ -224,13 +225,13 @@ The response should look like this:
 }
 ```
 
-To finish the transfer, call [`avm.importAVAX`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm-importavax).
+To finish the transfer, call [`avm.import`](../../avalanchego-apis/exchange-chain-x-chain-api.mdx#avm-import).
 
 ```cpp
 curl -X POST --data '{  
     "jsonrpc":"2.0",    
     "id"     :1,    
-    "method": "avm.importAVAX", 
+    "method": "avm.import",
     "params": { 
         "username":"myUsername",    
         "password":"myPassword",    
