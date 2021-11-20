@@ -197,7 +197,6 @@ const sidebars = {
             'build/tools/ortelius',
             'build/tools/deprecating-ortelius',
             'build/tools/postman-avalanche-collection',
-            'build/tools/avalanche-stats',
             'build/tools/abigen',
           ],
         },

@@ -118,7 +118,7 @@ When you issue the transaction to delegate tokens, the staked tokens and transac
 
 ### Is there a tool to check the health of a validator?
 
-Yes, enter your node ID [here](https://stats.avax.network/dashboard/validator-health-check). More information about this tool can be found [here](../../build/tools/avalanche-stats#validator-health-check).
+Yes, enter your node ID [here](https://stats.avax.network/dashboard/validator-health-check).
 
 ### How is it determined whether a validator receives a staking reward?
 
