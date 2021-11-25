@@ -107,9 +107,9 @@ const config = {
         appId: 'BH4D9OD16A',
   
         // Public API key: it is safe to commit it
-        apiKey: 'YOUR_SEARCH_API_KEY',
+        apiKey: '3f4f2f0325144237da8308f56a43e48d',
   
-        indexName: 'YOUR_INDEX_NAME',
+        indexName: 'avax',
   
         // Optional: see doc section below
         contextualSearch: true,
