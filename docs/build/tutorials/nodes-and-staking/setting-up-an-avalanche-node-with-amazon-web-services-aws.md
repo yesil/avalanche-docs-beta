@@ -1,4 +1,4 @@
-# Run an Avalanche Node with Amazon Web Services \(AWS\)
+# Run an Avalanche Node with Amazon Web Services (AWS)
 
 ## Introduction
 
