@@ -138,7 +138,7 @@ The response confirms that our subnet was created:
 
 ### Issuing a Subnet Validator Transaction
 
-Now let’s add a valiadtor to a subnet. Right now you can only add validators to subnets with API calls, not with Avalanche Wallet.
+Now let’s add a validator to a subnet. Right now you can only add validators to subnets with API calls, not with Avalanche Wallet.
 
 Suppose that the Subnet has ID `3fbrm3z38NoDB4yMC3hg5pRvc72XqnAGiu7NgaEp1dwZ8AD9g`, threshold 2, and that `username` holds at least 2 control keys.
 
